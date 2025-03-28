@@ -1,31 +1,30 @@
- 
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional
-from datetime import datetime
+from app.models.user import Role
 
 class UserBase(BaseModel):
     email: EmailStr
-    full_name: Optional[str] = None
+    full_name: Optional[str] = Field(None, min_length=2, max_length=50)
 
 class UserCreate(UserBase):
-    password: str = Field(..., min_length=6)
-    
+    password: str = Field(..., min_length=8, max_length=50)
+    role: Role = Role.USER
+
+class UserRegister(UserBase):
+    password: str = Field(..., min_length=8, max_length=50)
+
 class UserUpdate(BaseModel):
-    full_name: Optional[str] = None
+    email: Optional[EmailStr] = None
+    full_name: Optional[str] = Field(None, min_length=2, max_length=50)
+    password: Optional[str] = Field(None, min_length=8, max_length=50)
     is_active: Optional[bool] = None
-    role_id: Optional[int] = None
+    role: Optional[Role] = None
 
 class UserInDB(UserBase):
     id: int
     is_active: bool
-    role_id: Optional[int]
-    
-    class Config:
-        orm_mode = True
+    role: Role
+    is_verified: bool
 
-class UserWithRole(UserInDB):
-    role_name: Optional[str]
-    
-class UserLogin(BaseModel):
-    email: EmailStr
-    password: str
+    class Config:
+        from_attributes = True

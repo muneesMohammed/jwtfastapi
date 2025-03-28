@@ -13,3 +13,8 @@ logging==0.4.9.6
 pydantic[email]
 PyJWT
 bcrypt
+
+
+
+
+pydantic-settings==2.2.1
