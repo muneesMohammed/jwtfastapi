@@ -1,0 +1,70 @@
+ 
+2025-03-28 11:44:06,912 - app.main - INFO - Starting up...
+2025-03-28 11:44:07,770 - app.main - INFO - Database tables created
+2025-03-28 11:44:11,770 - app.main - INFO - Starting up...
+2025-03-28 11:44:11,875 - app.main - INFO - Database tables created
+2025-03-28 11:46:11,852 - app.main - INFO - Starting up...
+2025-03-28 11:46:12,646 - app.main - INFO - Database tables created
+2025-03-28 11:49:43,720 - passlib.handlers.bcrypt - DEBUG - bcrypt 'builtin' backend not enabled via $PASSLIB_BUILTIN_BCRYPT
+2025-03-28 11:51:32,161 - app.main - INFO - Shutting down...
+2025-03-28 11:51:49,283 - app.main - INFO - Starting up...
+2025-03-28 11:51:49,520 - app.main - INFO - Database tables created
+2025-03-28 11:52:41,271 - passlib.handlers.bcrypt - DEBUG - bcrypt 'builtin' backend not enabled via $PASSLIB_BUILTIN_BCRYPT
+2025-03-28 11:52:50,524 - passlib.handlers.bcrypt - DEBUG - bcrypt 'builtin' backend not enabled via $PASSLIB_BUILTIN_BCRYPT
+2025-03-28 11:54:51,537 - passlib.handlers.bcrypt - DEBUG - bcrypt 'builtin' backend not enabled via $PASSLIB_BUILTIN_BCRYPT
+2025-03-28 11:55:14,230 - app.main - INFO - Shutting down...
+2025-03-28 11:55:58,375 - app.main - INFO - Starting up...
+2025-03-28 11:55:58,615 - app.main - INFO - Database tables created
+2025-03-28 11:56:58,498 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi-master\jwtpy\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-28 11:56:58,514 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-03-28 11:56:58,536 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-03-28 12:00:10,876 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,945 - multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 12:00:10,947 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,949 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,949 - multipart.multipart - DEBUG - Calling on_field_name with data[12:20]
+2025-03-28 12:00:10,951 - multipart.multipart - DEBUG - Calling on_field_data with data[21:27]
+2025-03-28 12:00:10,955 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,955 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,957 - multipart.multipart - DEBUG - Calling on_field_name with data[28:36]
+2025-03-28 12:00:10,957 - multipart.multipart - DEBUG - Calling on_field_data with data[37:43]
+2025-03-28 12:00:10,959 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,961 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,963 - multipart.multipart - DEBUG - Calling on_field_name with data[44:49]
+2025-03-28 12:00:10,964 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,964 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,964 - multipart.multipart - DEBUG - Calling on_field_name with data[51:60]
+2025-03-28 12:00:10,967 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,971 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:00:10,973 - multipart.multipart - DEBUG - Calling on_field_name with data[62:75]
+2025-03-28 12:00:10,977 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:00:10,979 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 12:00:11,319 - app.routes.auth - ERROR - Login failed for user: admin2
+2025-03-28 12:10:59,486 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,519 - multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 12:10:59,519 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,519 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,525 - multipart.multipart - DEBUG - Calling on_field_name with data[12:20]
+2025-03-28 12:10:59,527 - multipart.multipart - DEBUG - Calling on_field_data with data[21:39]
+2025-03-28 12:10:59,527 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,527 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,529 - multipart.multipart - DEBUG - Calling on_field_name with data[40:48]
+2025-03-28 12:10:59,531 - multipart.multipart - DEBUG - Calling on_field_data with data[49:55]
+2025-03-28 12:10:59,531 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,533 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,536 - multipart.multipart - DEBUG - Calling on_field_name with data[56:61]
+2025-03-28 12:10:59,536 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,536 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,538 - multipart.multipart - DEBUG - Calling on_field_name with data[63:72]
+2025-03-28 12:10:59,538 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,540 - multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 12:10:59,540 - multipart.multipart - DEBUG - Calling on_field_name with data[74:87]
+2025-03-28 12:10:59,576 - multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 12:10:59,581 - multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 12:11:00,385 - app.routes.auth - INFO - User logged in successfully: user@example.com
+2025-03-28 13:41:07,793 - app.main - INFO - Shutting down...
