@@ -10,6 +10,7 @@ from app.db.session import engine, get_db
 from app.models.user import Base, Role
 from app.core.config import settings, logger
 from app.crud.user import get_user_by_email, create_user
+from setup import setup_first_admin
 
 Base.metadata.create_all(bind=engine)
 
@@ -79,3 +80,8 @@ async def setup_admin(db: Session = Depends(get_db)):
 async def read_root(request: Request):
     logger.debug("Root endpoint accessed")
     return {"message": "Auth System API"}
+
+@app.on_event("startup")
+def on_startup():
+    db = next(get_db())
+    setup_first_admin(db)
