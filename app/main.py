@@ -1,10 +1,11 @@
-from fastapi import FastAPI, Request, status
+from fastapi import FastAPI, Request, status, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
+from sqlalchemy.orm import Session
 import logging
 import traceback
-from app.api.v1 import auth, users
+from app.api.v1 import auth, user
 from app.db.session import engine, get_db
 from app.models.user import Base, Role
 from app.core.config import settings, logger
@@ -26,7 +27,7 @@ app.add_middleware(
 )
 
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
-app.include_router(users.router, prefix="/api/v1/users", tags=["users"])
+app.include_router(user.router, prefix="/api/v1/user", tags=["users"])
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):

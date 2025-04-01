@@ -11,11 +11,22 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     LOG_LEVEL: str = "INFO"
     
+    # Database settings
+    DB_HOST: str = "localhost"
+    DB_PORT: int = 3306
+    DB_USER: str = "root"
+    DB_PASSWORD: str = "root"
+    DB_NAME: str = "emts"
+    
+    # JWT settings
+    JWT_SECRET_KEY: str = "your-secret-key-change-this"
+    JWT_ALGORITHM: str = "HS256"
+
     class Config:
         env_file = ".env"
 
 settings = Settings()
-
+print(settings.dict())
 logging.basicConfig(
     level=settings.LOG_LEVEL,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
