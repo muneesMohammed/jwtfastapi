@@ -47,3 +47,45 @@ export default function Page() {
     </SidebarProvider>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // app/dashboard/page.tsx
+// import ProtectedRoute from '@/components/ProtectedRoute';
+// import { Button } from '@/components/ui/button';
+// import { logout } from '@/lib/auth';
+// import { useRouter } from 'next/navigation';
+
+// export default function DashboardPage() {
+//   const router = useRouter();
+
+//   const handleLogout = () => {
+//     logout();
+//     router.push('/login');
+//   };
+
+//   return (
+//     <ProtectedRoute>
+//       <div className="p-8">
+//         <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+//         <p className="mb-4">Welcome to your dashboard!</p>
+//         <Button onClick={handleLogout}>Logout</Button>
+//       </div>
+//     </ProtectedRoute>
+//   );
+// }
