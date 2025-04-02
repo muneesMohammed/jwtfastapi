@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-jose
+passlib==1.7.4  # Explicitly specify a stable version
+python-multipart
+python-dotenv
+sqlalchemy
+pymysql
+pydantic
+alembic
+logging
+pydantic[email]
+PyJWT
+bcrypt==4.0.1  # Use a compatible version with passlib
+pydantic-settings
+cryptography

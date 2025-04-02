@@ -1,0 +1,1588 @@
+2025-03-28 16:55:17,226 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 16:55:17,244 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 16:55:22,182 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 16:55:22,202 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 16:57:19,099 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 16:57:19,131 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 16:58:16,844 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 16:58:16,856 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:03:40,845 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:03:40,859 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:04:20,352 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:04:20,367 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:05:21,456 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:05:21,460 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:05:47,918 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:05:47,928 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:10:26,661 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:10:26,681 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:14:27,488 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:14:27,506 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:14:27,570 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:14:27,586 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:15:49,290 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:15:49,334 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:15:50,902 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:15:50,994 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:16:24,739 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:16:24,756 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:16:26,514 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:16:26,526 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:16:32,478 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:16:32,494 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:31,746 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:31,751 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:32,167 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:32,213 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:32,397 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:32,418 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:37,133 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:37,145 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:37,353 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:37,392 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:37,403 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:37,428 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:42,256 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:42,272 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:42,695 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:42,753 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:20:42,772 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:20:42,787 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:23:11,331 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:23:11,347 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:25:24,756 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-03-28 17:25:24,761 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-03-28 17:25:25,193 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-03-28 17:25:25,263 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-03-28 17:30:45,917 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-03-28 17:30:45,941 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:35]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_name with data[36:44]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_data with data[45:51]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_name with data[52:57]
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,962 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,967 - python_multipart.multipart - DEBUG - Calling on_field_name with data[59:68]
+2025-03-28 17:30:45,967 - python_multipart.multipart - DEBUG - Calling on_field_data with data[69:75]
+2025-03-28 17:30:45,967 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,967 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:30:45,968 - python_multipart.multipart - DEBUG - Calling on_field_name with data[76:89]
+2025-03-28 17:30:45,968 - python_multipart.multipart - DEBUG - Calling on_field_data with data[90:96]
+2025-03-28 17:30:45,968 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:30:45,968 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 17:30:46,018 - app.core.config - INFO - Login attempt for user: admin2
+2025-03-28 17:30:46,134 - app.core.config - WARNING - Login failed - user not found: admin2
+2025-03-28 17:30:46,134 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-03-28 17:30:46,151 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-03-28 17:31:21,122 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-03-28 17:31:21,124 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,124 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 17:31:21,124 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-03-28 17:31:21,124 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:47]
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_name with data[48:56]
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_data with data[57:63]
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,126 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_name with data[64:69]
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_name with data[71:80]
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_data with data[81:87]
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_name with data[88:101]
+2025-03-28 17:31:21,128 - python_multipart.multipart - DEBUG - Calling on_field_data with data[102:108]
+2025-03-28 17:31:21,130 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:21,130 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 17:31:21,135 - app.core.config - INFO - Login attempt for user: user@example.com
+2025-03-28 17:31:21,136 - app.core.config - WARNING - Login failed - user not found: user@example.com
+2025-03-28 17:31:21,136 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-03-28 17:31:21,136 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-03-28 17:31:59,039 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-03-28 17:31:59,042 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,044 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 17:31:59,044 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-03-28 17:31:59,044 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,046 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,046 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-03-28 17:31:59,046 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:47]
+2025-03-28 17:31:59,046 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,048 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,048 - python_multipart.multipart - DEBUG - Calling on_field_name with data[48:56]
+2025-03-28 17:31:59,048 - python_multipart.multipart - DEBUG - Calling on_field_data with data[57:63]
+2025-03-28 17:31:59,048 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,048 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,050 - python_multipart.multipart - DEBUG - Calling on_field_name with data[64:69]
+2025-03-28 17:31:59,050 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,052 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,052 - python_multipart.multipart - DEBUG - Calling on_field_name with data[71:80]
+2025-03-28 17:31:59,052 - python_multipart.multipart - DEBUG - Calling on_field_data with data[81:87]
+2025-03-28 17:31:59,052 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,055 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:31:59,056 - python_multipart.multipart - DEBUG - Calling on_field_name with data[88:101]
+2025-03-28 17:31:59,056 - python_multipart.multipart - DEBUG - Calling on_field_data with data[102:108]
+2025-03-28 17:31:59,058 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:31:59,058 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 17:31:59,060 - app.core.config - INFO - Login attempt for user: user@example.com
+2025-03-28 17:31:59,064 - app.core.config - WARNING - Login failed - user not found: user@example.com
+2025-03-28 17:31:59,064 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-03-28 17:31:59,066 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-03-28 17:32:12,996 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:47]
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,000 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,004 - python_multipart.multipart - DEBUG - Calling on_field_name with data[48:56]
+2025-03-28 17:32:13,005 - python_multipart.multipart - DEBUG - Calling on_field_data with data[57:62]
+2025-03-28 17:32:13,005 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,006 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,006 - python_multipart.multipart - DEBUG - Calling on_field_name with data[63:68]
+2025-03-28 17:32:13,006 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,006 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,006 - python_multipart.multipart - DEBUG - Calling on_field_name with data[70:79]
+2025-03-28 17:32:13,008 - python_multipart.multipart - DEBUG - Calling on_field_data with data[80:86]
+2025-03-28 17:32:13,008 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,008 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-03-28 17:32:13,008 - python_multipart.multipart - DEBUG - Calling on_field_name with data[87:100]
+2025-03-28 17:32:13,008 - python_multipart.multipart - DEBUG - Calling on_field_data with data[101:107]
+2025-03-28 17:32:13,011 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-03-28 17:32:13,011 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-03-28 17:32:13,013 - app.core.config - INFO - Login attempt for user: user@example.com
+2025-03-28 17:32:13,021 - app.core.config - WARNING - Login failed - user not found: user@example.com
+2025-03-28 17:32:13,021 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-03-28 17:32:13,024 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-03-28 17:34:40,830 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:34:40,845 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:42:31,383 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:42:31,404 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:49:46,475 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:49:46,491 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:54:46,032 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:54:46,060 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:54:46,602 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:54:46,602 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:54:46,602 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:54:46,602 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:54:46,612 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:54:46,612 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:54:46,614 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:54:46,614 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:54:46,615 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:54:46,650 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-03-28 17:55:10,115 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:55:10,129 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:55:10,400 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:55:10,401 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:10,403 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:55:10,404 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:10,405 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:55:10,406 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:10,408 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:55:10,409 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:55:10,410 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:10,418 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-03-28 17:55:13,594 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:55:13,609 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:55:13,888 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:55:13,891 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:13,894 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:55:13,896 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:13,898 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:55:13,898 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:13,902 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:55:13,903 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:55:13,904 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:13,912 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-03-28 17:55:17,534 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:55:17,546 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:55:17,690 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:55:17,692 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:17,693 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:55:17,694 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:17,695 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:55:17,695 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:17,696 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:55:17,696 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:55:17,696 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:17,700 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-03-28 17:55:19,889 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:55:19,902 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:55:20,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:20,065 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-03-28 17:55:25,055 - app.core.config - DEBUG - Debug mode is enabled
+2025-03-28 17:55:25,077 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-03-28 17:55:25,295 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:25,305 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-03-28 17:55:25,307 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-03-28 17:55:25,307 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-03-28 17:55:25,311 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE users (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	email VARCHAR(255) NOT NULL, 
+	hashed_password VARCHAR(255) NOT NULL, 
+	full_name VARCHAR(255), 
+	is_active BOOL, 
+	`role` ENUM('ADMIN','MANAGER','USER'), 
+	is_verified BOOL, 
+	PRIMARY KEY (id)
+)
+
+
+2025-03-28 17:55:25,319 - sqlalchemy.engine.Engine - INFO - [no key 0.00194s] {}
+2025-03-28 17:55:25,445 - sqlalchemy.engine.Engine - INFO - CREATE INDEX ix_users_id ON users (id)
+2025-03-28 17:55:25,446 - sqlalchemy.engine.Engine - INFO - [no key 0.00095s] {}
+2025-03-28 17:55:25,492 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_users_email ON users (email)
+2025-03-28 17:55:25,493 - sqlalchemy.engine.Engine - INFO - [no key 0.00057s] {}
+2025-03-28 17:55:25,511 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-28 18:01:25,449 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-03-28 18:01:25,499 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-03-28 18:01:26,128 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-03-28 18:01:26,147 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 15:32:52,478 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:32:52,514 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:33:39,394 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:33:39,395 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:33:39,811 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:33:39,812 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:33:39,820 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:33:39,820 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:33:39,822 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:33:39,823 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:33:39,827 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:33:39,828 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:33:39,829 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:33:39,955 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:33:39,976 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:33:39,978 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 15:33:39,978 - sqlalchemy.engine.Engine - INFO - [generated in 0.00087s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 15:33:40,030 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\jwtpy2\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-04-01 15:33:40,098 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-04-01 15:33:40,100 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-01 15:33:40,483 - app.core.config - DEBUG - Password hashed successfully
+2025-04-01 15:33:40,488 - sqlalchemy.engine.Engine - INFO - INSERT INTO users (email, hashed_password, full_name, is_active, `role`, is_verified) VALUES (%(email)s, %(hashed_password)s, %(full_name)s, %(is_active)s, %(role)s, %(is_verified)s)
+2025-04-01 15:33:40,490 - sqlalchemy.engine.Engine - INFO - [generated in 0.00169s] {'email': 'admin@example.com', 'hashed_password': '$2b$12$q15Feo3B.Y4z7xoiE.heWezxw.XhsKsBocfprkV.GFcsRG.lkHuwG', 'full_name': None, 'is_active': 1, 'role': 'ADMIN', 'is_verified': 1}
+2025-04-01 15:33:40,513 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:33:40,534 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:33:40,537 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.email, users.hashed_password, users.full_name, users.is_active, users.`role`, users.is_verified 
+FROM users 
+WHERE users.id = %(pk_1)s
+2025-04-01 15:33:40,538 - sqlalchemy.engine.Engine - INFO - [generated in 0.00109s] {'pk_1': 1}
+2025-04-01 15:33:40,540 - app.core.config - DEBUG - User created: admin@example.com
+2025-04-01 15:38:10,660 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:38:10,675 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:38:11,057 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:38:11,058 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:38:11,063 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:38:11,063 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:38:11,066 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:38:11,066 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:38:11,069 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:38:11,069 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:38:11,070 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:38:11,150 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:38:11,166 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:38:11,170 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 15:38:11,171 - sqlalchemy.engine.Engine - INFO - [generated in 0.00091s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 15:40:20,776 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:40:20,797 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:40:21,169 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:40:21,171 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:40:21,175 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:40:21,181 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:40:21,183 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:40:21,183 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:40:21,186 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:40:21,187 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:40:21,188 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:40:21,270 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:40:39,571 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:40:39,585 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:42:09,266 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:42:09,285 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:42:09,561 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:09,575 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:09,575 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:42:09,576 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:09,595 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:42:09,612 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:09,617 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 15:42:09,619 - sqlalchemy.engine.Engine - INFO - [generated in 0.00139s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 15:42:09,624 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-01 15:42:09,626 - app.core.config - ERROR - Error creating user: 'password'
+2025-04-01 15:42:18,423 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:42:18,436 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:42:18,635 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:42:18,635 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:18,652 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:42:18,652 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:18,652 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:42:18,652 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:18,657 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:18,658 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:42:18,659 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:18,676 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:42:18,704 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:18,713 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 15:42:18,714 - sqlalchemy.engine.Engine - INFO - [generated in 0.00203s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 15:42:18,726 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-01 15:42:18,730 - app.core.config - ERROR - Error creating user: 'password'
+2025-04-01 15:42:54,844 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 15:42:54,868 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 15:42:55,256 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 15:42:55,256 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:55,272 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 15:42:55,272 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:55,276 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 15:42:55,276 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:55,279 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:55,280 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 15:42:55,280 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 15:42:55,294 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:42:55,316 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:55,321 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 15:42:55,329 - sqlalchemy.engine.Engine - INFO - [generated in 0.00769s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 15:42:55,356 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\jwtpy2\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-04-01 15:42:55,357 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-04-01 15:42:55,357 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-01 15:42:55,758 - app.core.config - DEBUG - Password hashed successfully
+2025-04-01 15:42:55,758 - sqlalchemy.engine.Engine - INFO - INSERT INTO users (email, hashed_password, full_name, is_active, `role`, is_verified) VALUES (%(email)s, %(hashed_password)s, %(full_name)s, %(is_active)s, %(role)s, %(is_verified)s)
+2025-04-01 15:42:55,758 - sqlalchemy.engine.Engine - INFO - [generated in 0.00087s] {'email': 'admin@example.com', 'hashed_password': '$2b$12$LJFQHBh4Wj15qJjX1eQKbO2JmhfKaOptjDmmpwSLhmOMVFAeGpTQ.', 'full_name': 'Admin User', 'is_active': 1, 'role': 'ADMIN', 'is_verified': 1}
+2025-04-01 15:42:55,792 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 15:42:55,796 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 15:42:55,806 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.email, users.hashed_password, users.full_name, users.is_active, users.`role`, users.is_verified 
+FROM users 
+WHERE users.id = %(pk_1)s
+2025-04-01 15:42:55,807 - sqlalchemy.engine.Engine - INFO - [generated in 0.00088s] {'pk_1': 1}
+2025-04-01 15:42:55,809 - app.core.config - DEBUG - User created: admin@example.com
+2025-04-01 15:56:53,471 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 15:56:53,826 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 15:56:55,379 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 15:56:55,442 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 15:57:23,125 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 15:57:23,158 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,171 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 15:57:23,173 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 15:57:23,173 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 15:57:23,174 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 15:57:23,174 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 15:57:23,208 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 15:57:23,258 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 15:57:23,258 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 15:57:23,258 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 16:00:56,852 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 16:00:56,868 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 16:00:56,885 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 16:00:56,885 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 16:00:56,885 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 16:00:56,918 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 16:00:56,918 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 16:00:56,918 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:14:03,793 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:14:03,805 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:14:04,028 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:14:04,028 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:14:04,032 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:14:04,032 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:14:04,034 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:14:04,036 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:14:04,038 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:14:04,040 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:14:04,041 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:14:04,067 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:14:04,080 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:14:04,085 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:14:04,086 - sqlalchemy.engine.Engine - INFO - [generated in 0.00094s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:14:04,106 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\jwtpy2\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-04-01 17:14:04,110 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '<unknown>'
+2025-04-01 17:14:04,110 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-01 17:14:04,496 - app.core.config - DEBUG - Password hashed successfully
+2025-04-01 17:14:04,496 - sqlalchemy.engine.Engine - INFO - INSERT INTO users (email, hashed_password, full_name, is_active, `role`, is_verified) VALUES (%(email)s, %(hashed_password)s, %(full_name)s, %(is_active)s, %(role)s, %(is_verified)s)
+2025-04-01 17:14:04,496 - sqlalchemy.engine.Engine - INFO - [generated in 0.00069s] {'email': 'admin@example.com', 'hashed_password': '$2b$12$r7nnOFTvIQ6x38I2AEyjcOHcaQ66aKyBCaZ.bvOeISCPnjRAipYn.', 'full_name': 'Admin User', 'is_active': 1, 'role': 'ADMIN', 'is_verified': 1}
+2025-04-01 17:14:04,520 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:14:04,527 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:14:04,529 - sqlalchemy.engine.Engine - INFO - SELECT users.id, users.email, users.hashed_password, users.full_name, users.is_active, users.`role`, users.is_verified 
+FROM users 
+WHERE users.id = %(pk_1)s
+2025-04-01 17:14:04,530 - sqlalchemy.engine.Engine - INFO - [generated in 0.00087s] {'pk_1': 1}
+2025-04-01 17:14:04,530 - app.core.config - DEBUG - User created: admin@example.com
+2025-04-01 17:15:58,646 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:15:58,657 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:15:58,909 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:15:58,910 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:15:58,916 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:15:58,917 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:15:58,919 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:15:58,919 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:15:58,921 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:15:58,922 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:15:58,923 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:15:58,973 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:15:58,997 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:15:59,000 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:15:59,002 - sqlalchemy.engine.Engine - INFO - [generated in 0.00090s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:17:34,747 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:17:34,771 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:17:35,190 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:17:35,190 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:17:35,197 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:17:35,197 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:17:35,206 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:17:35,207 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:17:35,212 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:17:35,213 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:17:35,214 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:17:35,308 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:17:35,337 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:17:35,344 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:17:35,345 - sqlalchemy.engine.Engine - INFO - [generated in 0.00125s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:22:43,588 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:22:43,705 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:22:43,722 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:22:43,722 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:22:43,753 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:22:43,797 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:22:43,799 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:22:43,805 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:25:05,717 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:25:05,747 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:25:06,287 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:25:06,287 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:25:06,297 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:25:06,299 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:25:06,299 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:25:06,299 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:25:06,305 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:25:06,307 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:25:06,307 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:25:06,686 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:25:06,716 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:25:06,719 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:25:06,719 - sqlalchemy.engine.Engine - INFO - [generated in 0.00218s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:25:27,279 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,279 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,295 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:25:27,296 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:25:27,309 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:25:27,329 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:25:27,329 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:25:27,344 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:30:04,962 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:30:04,980 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:30:05,219 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:30:05,235 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:30:05,235 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:30:05,235 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:30:05,235 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:30:05,242 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:30:05,245 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:30:05,246 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:30:05,247 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:30:05,342 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:30:05,360 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:30:05,362 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:30:05,367 - sqlalchemy.engine.Engine - INFO - [generated in 0.00124s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:30:13,563 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,571 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:13,582 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:30:13,597 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:30:13,634 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:30:13,634 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:30:13,670 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:30:22,079 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 17:30:22,101 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 17:30:22,790 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 17:30:22,813 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 17:30:51,967 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:30:51,967 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,967 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:30:51,967 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:30:51,967 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,978 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:30:51,979 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:30:51,995 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:30:52,008 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:30:52,008 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:30:52,011 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:31:57,432 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:31:57,450 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:31:57,908 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:31:57,909 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:31:57,916 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:31:57,918 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:31:57,920 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:31:57,921 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:31:57,924 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:31:57,926 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:31:57,926 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:31:58,000 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:31:58,028 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:31:58,035 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:31:58,037 - sqlalchemy.engine.Engine - INFO - [generated in 0.00176s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:32:47,717 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:32:47,739 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:32:47,752 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:32:47,770 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:32:47,770 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:32:47,786 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:32:59,204 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 17:32:59,208 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 17:32:59,521 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 17:32:59,525 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 17:33:11,421 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:35]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[36:44]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_data with data[45:51]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[52:57]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[59:68]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_data with data[69:75]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_name with data[76:89]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_data with data[90:96]
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:11,421 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:33:11,421 - app.core.config - INFO - Login attempt for user: string
+2025-04-01 17:33:11,437 - app.core.config - WARNING - Login failed - user not found: string
+2025-04-01 17:33:11,437 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:33:11,437 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:33:32,652 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:33:32,652 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:33:32,652 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:33:32,652 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:33:32,652 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:33:32,668 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:51:33,947 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:51:33,970 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:51:34,263 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:51:34,263 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:51:34,276 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:51:34,276 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:51:34,280 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:51:34,281 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:51:34,284 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:51:34,284 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:51:34,284 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:51:34,345 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:51:34,366 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:51:34,366 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:51:34,366 - sqlalchemy.engine.Engine - INFO - [generated in 0.00068s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:52:25,747 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:52:25,780 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:52:25,800 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:52:25,847 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:52:25,847 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:52:25,847 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:52:30,683 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 17:52:30,685 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 17:52:31,344 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 17:52:31,348 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 17:53:11,936 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-01 17:53:11,936 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,936 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 17:53:11,936 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 17:53:11,949 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,949 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,949 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 17:53:11,949 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 17:53:11,950 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 17:53:11,954 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 17:53:11,954 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 17:53:11,954 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 17:53:11,960 - app.core.config - WARNING - Login failed - user not found: admin@example.com
+2025-04-01 17:53:11,960 - app.core.config - ERROR - Login error: 401: Incorrect email or password
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\app\api\v1\auth.py", line 28, in login
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Incorrect email or password
+2025-04-01 17:53:11,966 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 401
+2025-04-01 17:56:35,363 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:56:35,431 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:56:36,121 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:56:36,121 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:56:36,134 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:56:36,134 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:56:36,134 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:56:36,134 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:56:36,146 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:56:36,146 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:56:36,146 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:56:36,271 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:56:36,298 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:56:36,305 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:56:36,308 - sqlalchemy.engine.Engine - INFO - [generated in 0.00197s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:58:05,577 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 17:58:05,601 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 17:58:05,874 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 17:58:05,875 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:58:05,880 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 17:58:05,881 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:58:05,881 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 17:58:05,882 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:58:05,884 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:58:05,885 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 17:58:05,885 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 17:58:05,934 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 17:58:05,934 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 17:58:05,946 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 17:58:05,947 - sqlalchemy.engine.Engine - INFO - [generated in 0.00100s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 17:58:50,033 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 17:58:50,049 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 17:58:50,635 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 17:58:50,635 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 17:58:53,581 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 17:58:53,585 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 17:58:53,745 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 17:58:53,745 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:00,838 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:00,854 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:01,216 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:01,225 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:06,319 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:00:06,342 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:00:06,662 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 18:00:06,678 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:06,742 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 18:00:06,758 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:00:06,758 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:00:06,758 - sqlalchemy.engine.Engine - INFO - [generated in 0.00088s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:00:23,802 - app.core.config - INFO - Incoming request: GET http://localhost:8000/
+2025-04-01 18:00:23,828 - app.core.config - DEBUG - Root endpoint accessed
+2025-04-01 18:00:23,836 - app.core.config - INFO - Request completed: GET http://localhost:8000/ - Status: 200
+2025-04-01 18:00:24,348 - app.core.config - INFO - Incoming request: GET http://localhost:8000/favicon.ico
+2025-04-01 18:00:24,360 - app.core.config - INFO - Request completed: GET http://localhost:8000/favicon.ico - Status: 404
+2025-04-01 18:00:34,691 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:34,691 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:35,473 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:35,476 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:51,925 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:00:51,941 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:00:52,359 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 18:00:52,359 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:52,359 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 18:00:52,368 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:52,368 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 18:00:52,370 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:52,373 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:00:52,374 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 18:00:52,375 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:00:52,436 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 18:00:52,444 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:00:52,449 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:00:52,449 - sqlalchemy.engine.Engine - INFO - [generated in 0.00115s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:00:52,931 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:52,940 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:53,095 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:53,098 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:55,291 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:55,295 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:55,383 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:55,385 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:56,426 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:56,429 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:56,530 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:56,533 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:57,347 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:57,362 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:57,447 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:57,448 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:58,285 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:58,290 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:58,393 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:58,397 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:00:59,812 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:00:59,813 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:00:59,909 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:00:59,911 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:00,777 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:00,780 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:00,868 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:00,871 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:14,612 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:14,612 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:14,694 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:14,789 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:15,943 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:15,943 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:16,013 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:16,017 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:16,939 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:16,939 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:17,023 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:17,024 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:17,797 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:17,804 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:17,895 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:17,897 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:18,766 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:18,767 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:18,841 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:18,843 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:19,977 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:19,978 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:20,074 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:20,076 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:20,708 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-01 18:01:20,709 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-01 18:01:20,807 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-01 18:01:20,809 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-01 18:01:39,970 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:01:39,989 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:01:40,376 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-04-01 18:01:40,399 - app.core.config - DEBUG - Root endpoint accessed
+2025-04-01 18:01:40,403 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/ - Status: 200
+2025-04-01 18:01:40,606 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-01 18:01:40,612 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/favicon.ico - Status: 404
+2025-04-01 18:01:40,943 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 18:01:40,945 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:01:40,950 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 18:01:40,950 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:01:40,957 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 18:01:40,958 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:01:40,963 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:01:40,964 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 18:01:40,965 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:01:41,078 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 18:01:41,089 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:01:41,096 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:01:41,097 - sqlalchemy.engine.Engine - INFO - [generated in 0.00152s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:01:48,047 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:01:48,050 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:01:48,469 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:01:48,473 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:02:53,425 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:02:53,441 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:02:53,687 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:02:53,693 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:02:54,759 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:02:54,761 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:02:54,909 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:02:54,913 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:02:55,873 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:02:55,875 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:02:56,018 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:02:56,021 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:02:57,169 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:02:57,169 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:02:57,247 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:02:57,248 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:02:59,033 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:02:59,033 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:02:59,105 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:02:59,107 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:00,287 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:00,289 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:00,349 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:00,351 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:01,204 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:01,204 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:01,279 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:01,281 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:01,965 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:01,965 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:02,055 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:02,057 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:02,486 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:02,487 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:02,562 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:02,563 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:03,515 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:03,526 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:03,681 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:03,685 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:03:04,781 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:03:04,789 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:03:04,904 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:03:04,905 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:17:01,531 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:17:01,569 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:17:02,027 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:17:02,047 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:36:43,126 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:36:43,170 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:38:58,343 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:38:58,356 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:38:58,806 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 18:38:58,808 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:38:58,808 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 18:38:58,808 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:38:58,818 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 18:38:58,819 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:38:58,822 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:38:58,822 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 18:38:58,824 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:38:58,932 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 18:38:58,946 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:38:58,951 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:38:58,952 - sqlalchemy.engine.Engine - INFO - [generated in 0.00134s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:40:03,917 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:03,921 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:04,960 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:04,968 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:32,943 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:32,947 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:33,047 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:33,048 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:34,545 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:34,545 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:34,625 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:34,627 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:35,484 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:35,484 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:35,581 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:35,582 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:36,691 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:36,691 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:36,771 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:36,773 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:37,541 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:37,549 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:37,643 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:37,645 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:38,826 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:38,828 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:38,911 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:38,912 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:39,761 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:39,761 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:39,843 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:39,844 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:40,643 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:40,643 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:40,723 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:40,724 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:41,615 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:41,615 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:41,728 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:41,729 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:42,470 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:42,470 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:42,543 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:42,544 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:43,008 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:43,008 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:43,085 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:43,086 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:43,331 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:43,331 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:43,414 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:43,415 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:44,061 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:44,063 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:44,157 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:44,158 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:44,306 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:44,307 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:44,389 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:44,391 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:44,547 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:44,548 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:44,665 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:44,666 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:44,815 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:44,815 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:44,913 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:44,914 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:45,004 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:45,004 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:45,122 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:45,123 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:45,263 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:45,263 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:45,357 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:45,359 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:45,531 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:45,533 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:45,631 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:45,633 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:45,745 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:45,745 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:45,821 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:45,823 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:45,942 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:45,942 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:46,027 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:46,029 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:46,228 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:46,229 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:46,299 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:46,301 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:46,468 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:46,469 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:46,549 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:46,551 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:46,686 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:46,686 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:46,806 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:46,808 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:46,995 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:46,996 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:47,057 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:47,058 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:47,251 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:47,254 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:47,317 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:47,319 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:47,494 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:47,496 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:47,607 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:47,608 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:47,763 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:47,763 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:47,863 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:47,864 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:48,002 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:48,003 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:48,077 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:48,084 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:48,219 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:48,219 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:48,308 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:48,310 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:48,437 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:48,437 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:48,530 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:48,531 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:50,759 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:50,759 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:50,860 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:50,861 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:40:51,621 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:40:51,621 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:40:51,688 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:40:51,689 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:49,264 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:49,264 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:49,337 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:49,338 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:50,197 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:50,197 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:50,284 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:50,285 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:50,992 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:50,992 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:51,053 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:51,054 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:51,198 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:51,214 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:51,280 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:51,281 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:51,464 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:51,464 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:51,546 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:51,547 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:51,715 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:51,715 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:51,819 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:51,820 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:51,951 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:51,951 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:52,021 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:52,021 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:52,166 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:52,166 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:52,241 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:52,243 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:52,399 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:52,399 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:52,485 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:52,485 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:52,641 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:52,641 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:52,704 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:52,705 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:52,904 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:52,905 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:52,989 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:52,990 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:53,106 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:53,119 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:53,179 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:53,180 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:53,372 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:53,372 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:53,431 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:53,432 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:53,596 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:53,596 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:53,658 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:53,659 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:53,806 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:53,806 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:53,882 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:53,883 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:41:54,023 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:41:54,023 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:41:54,129 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:41:54,130 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:43:39,167 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:43:39,169 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:43:39,333 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:43:39,334 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:29,012 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:29,016 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:29,130 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:29,130 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:30,012 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:30,028 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:30,148 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:30,195 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:30,864 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:30,891 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:30,996 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:31,031 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:31,091 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:31,121 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:31,213 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:31,213 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:31,263 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:31,263 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:31,381 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:31,381 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:31,489 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:31,497 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:31,580 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:31,580 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:52,689 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:52,691 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:52,799 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:52,800 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:53,611 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:53,627 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:53,725 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:53,725 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:54,436 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:54,436 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:54,525 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:54,634 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:54,668 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:54,668 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:54,770 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:54,771 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:54,900 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:54,901 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:55,006 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:55,006 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:55,227 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:55,227 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:55,325 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:55,325 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:55,466 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:55,467 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:55,566 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:55,567 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:55,684 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:55,685 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:55,845 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:55,845 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:55,902 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:55,903 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:56,057 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:56,058 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:56,103 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:56,103 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:56,230 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:56,231 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:44:56,336 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:44:56,337 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:44:56,466 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:44:56,467 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:49:47,556 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-01 18:49:47,590 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-01 18:49:48,266 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-01 18:49:48,271 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:49:48,276 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-01 18:49:48,278 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:49:48,280 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-01 18:49:48,280 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:49:48,284 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:49:48,284 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-01 18:49:48,286 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-01 18:49:48,399 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-01 18:49:48,432 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:49:48,442 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:49:48,444 - sqlalchemy.engine.Engine - INFO - [generated in 0.00175s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:50:05,360 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-04-01 18:50:05,364 - app.core.config - DEBUG - Root endpoint accessed
+2025-04-01 18:50:05,368 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/ - Status: 200
+2025-04-01 18:50:05,596 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-01 18:50:05,597 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/favicon.ico - Status: 404
+2025-04-01 18:50:10,990 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-01 18:50:10,992 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-01 18:50:11,264 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-01 18:50:11,295 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-01 18:52:03,483 - app.core.config - INFO - Incoming request: POST http://127.0.0.1:8000/api/v1/auth/login
+2025-04-01 18:52:04,080 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,291 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-01 18:52:04,310 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-01 18:52:04,321 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,333 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,350 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-01 18:52:04,361 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-01 18:52:04,369 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,390 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,414 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-01 18:52:04,426 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-01 18:52:04,426 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,427 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,427 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-01 18:52:04,429 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,440 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,457 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-01 18:52:04,469 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-01 18:52:04,485 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,496 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-01 18:52:04,510 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-01 18:52:04,521 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-01 18:52:04,586 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-01 18:52:04,590 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-01 18:52:04,951 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-01 18:52:06,239 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-01 18:52:06,261 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-01 18:52:06,263 - sqlalchemy.engine.Engine - INFO - [cached since 137.8s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-01 18:52:06,349 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-01 18:52:06,360 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-01 18:52:07,473 - app.core.config - DEBUG - Password verification succeeded
+2025-04-01 18:52:07,489 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 1, 13, 52, 7, 487481)}
+2025-04-01 18:52:07,561 - app.core.config - INFO - Access token created successfully
+2025-04-01 18:52:07,561 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-01 18:52:07,596 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-01 18:52:07,611 - app.core.config - INFO - Request completed: POST http://127.0.0.1:8000/api/v1/auth/login - Status: 200
+2025-04-01 18:53:08,313 - app.core.config - INFO - Incoming request: GET http://localhost:8000/favicon.ico
+2025-04-01 18:53:08,348 - app.core.config - INFO - Request completed: GET http://localhost:8000/favicon.ico - Status: 404
+2025-04-01 18:53:12,529 - app.core.config - INFO - Incoming request: GET http://localhost:8000/null
+2025-04-01 18:53:12,535 - app.core.config - INFO - Request completed: GET http://localhost:8000/null - Status: 404
+2025-04-02 10:53:41,933 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-02 10:53:41,983 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-02 10:53:43,240 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-02 10:53:43,268 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-02 10:54:17,210 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-02 10:54:17,249 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-02 10:54:17,748 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-02 10:54:17,753 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 10:54:17,754 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-02 10:54:17,754 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 10:54:17,754 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-02 10:54:17,754 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 10:54:17,771 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-02 10:54:17,771 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-02 10:54:17,771 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 10:54:17,885 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-02 10:54:17,904 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-02 10:54:17,904 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-02 10:54:17,904 - sqlalchemy.engine.Engine - INFO - [generated in 0.00085s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-02 10:54:17,949 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-02 10:54:17,950 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/docs - Status: 200
+2025-04-02 10:54:18,265 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-02 10:54:18,289 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/openapi.json - Status: 200
+2025-04-02 12:35:10,296 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-02 12:35:10,327 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-02 12:35:10,848 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-02 12:35:10,848 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 12:35:10,848 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-02 12:35:10,858 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 12:35:10,858 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-02 12:35:10,858 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 12:35:10,858 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-02 12:35:10,858 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-02 12:35:10,864 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-02 12:35:10,959 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-02 12:35:10,991 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-02 12:35:10,997 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-02 12:35:10,997 - sqlalchemy.engine.Engine - INFO - [generated in 0.00075s] {'email_1': 'admin@example.com', 'param_1': 1}
