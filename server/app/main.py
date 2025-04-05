@@ -19,12 +19,13 @@ app = FastAPI(
     debug=settings.DEBUG
 )
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["http://localhost:3000","http://192.168.1.4:3000"],  # Explicitly define frontend URL
+    allow_credentials=True,  # Allow cookies and Authorization headers
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
 )
 
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
@@ -50,14 +51,20 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": exc.errors(), "body": exc.body},
     )
 
-@app.exception_handler(Exception)
-async def global_exception_handler(request: Request, exc: Exception):
-    logger.error(f"Unhandled exception: {str(exc)}")
-    logger.error(traceback.format_exc())
+from fastapi.encoders import jsonable_encoder
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    logger.error(f"Validation error: {str(exc)}")
+    
+    # Convert the request body to a serializable format
+    body_content = await request.form() if "multipart/form-data" in request.headers.get("content-type", "") else exc.body
+
     return JSONResponse(
-        status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-        content={"detail": "Internal Server Error"},
+        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+        content={"detail": exc.errors(), "body": jsonable_encoder(body_content)},
     )
+
 
 @app.post("/setup-admin")
 async def setup_admin(db: Session = Depends(get_db)):

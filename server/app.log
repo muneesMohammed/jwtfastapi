@@ -1586,3 +1586,1658 @@ FROM users
 WHERE users.email = %(email_1)s 
  LIMIT %(param_1)s
 2025-04-02 12:35:10,997 - sqlalchemy.engine.Engine - INFO - [generated in 0.00075s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-03 10:44:36,550 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-03 10:44:36,600 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-03 10:44:37,722 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-03 10:44:37,722 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 10:44:37,733 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-03 10:44:37,735 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 10:44:37,738 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-03 10:44:37,738 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 10:44:37,742 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 10:44:37,745 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-03 10:44:37,746 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 10:44:37,908 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-03 10:44:37,939 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 10:44:37,946 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-03 10:44:37,947 - sqlalchemy.engine.Engine - INFO - [generated in 0.00113s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-03 12:11:05,110 - app.core.config - INFO - Incoming request: OPTIONS http://127.0.0.1:8000/auth/login
+2025-04-03 12:11:05,143 - app.core.config - INFO - Request completed: OPTIONS http://127.0.0.1:8000/auth/login - Status: 200
+2025-04-03 12:11:05,192 - app.core.config - INFO - Incoming request: POST http://127.0.0.1:8000/auth/login
+2025-04-03 12:11:05,212 - app.core.config - INFO - Request completed: POST http://127.0.0.1:8000/auth/login - Status: 404
+2025-04-03 12:11:17,786 - app.core.config - INFO - Incoming request: POST http://127.0.0.1:8000/auth/login
+2025-04-03 12:11:17,795 - app.core.config - INFO - Request completed: POST http://127.0.0.1:8000/auth/login - Status: 404
+2025-04-03 12:19:34,341 - app.core.config - INFO - Incoming request: POST http://127.0.0.1:8000/auth/login
+2025-04-03 12:19:34,407 - app.core.config - INFO - Request completed: POST http://127.0.0.1:8000/auth/login - Status: 404
+2025-04-03 12:19:40,908 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/auth/login
+2025-04-03 12:19:40,913 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/auth/login - Status: 404
+2025-04-03 12:19:41,172 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-04-03 12:19:41,176 - app.core.config - INFO - Request completed: GET http://127.0.0.1:8000/favicon.ico - Status: 404
+2025-04-03 12:20:30,841 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-03 12:20:31,387 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-03 12:20:32,405 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-03 12:20:32,974 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-03 12:33:54,804 - app.core.config - INFO - Incoming request: OPTIONS http://127.0.0.1:8000/auth/login
+2025-04-03 12:33:55,402 - app.core.config - INFO - Request completed: OPTIONS http://127.0.0.1:8000/auth/login - Status: 200
+2025-04-03 12:33:55,665 - app.core.config - INFO - Incoming request: POST http://127.0.0.1:8000/auth/login
+2025-04-03 12:33:55,706 - app.core.config - INFO - Request completed: POST http://127.0.0.1:8000/auth/login - Status: 404
+2025-04-03 14:21:29,447 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-03 14:21:29,484 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-03 14:21:30,086 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-03 14:21:30,087 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 14:21:30,097 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-03 14:21:30,097 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 14:21:30,099 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-03 14:21:30,100 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 14:21:30,102 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 14:21:30,103 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-03 14:21:30,105 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 14:21:30,204 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-03 14:21:30,228 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 14:21:30,235 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-03 14:21:30,236 - sqlalchemy.engine.Engine - INFO - [generated in 0.00076s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-03 15:44:11,441 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-03 15:44:11,491 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-03 15:44:12,627 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-03 15:44:12,629 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 15:44:12,637 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-03 15:44:12,639 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 15:44:12,643 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-03 15:44:12,643 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 15:44:12,647 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 15:44:12,649 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-03 15:44:12,649 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-03 15:44:12,847 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-03 15:44:12,889 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 15:44:12,914 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-03 15:44:12,922 - sqlalchemy.engine.Engine - INFO - [generated in 0.00478s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-03 15:49:22,091 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-03 15:49:22,182 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,215 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-03 15:49:22,217 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-03 15:49:22,217 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,228 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-03 15:49:22,230 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-03 15:49:22,232 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,232 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,232 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-03 15:49:22,232 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,232 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,234 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-03 15:49:22,234 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-03 15:49:22,239 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,239 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-03 15:49:22,239 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-03 15:49:22,239 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-03 15:49:22,246 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-03 15:49:22,247 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-03 15:49:22,400 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-03 15:49:23,687 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-03 15:49:23,705 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-03 15:49:23,707 - sqlalchemy.engine.Engine - INFO - [cached since 310.8s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-03 15:49:23,786 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-03 15:49:23,792 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-03 15:49:24,384 - app.core.config - DEBUG - Password verification succeeded
+2025-04-03 15:49:24,388 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 3, 10, 49, 24, 387056)}
+2025-04-03 15:49:24,506 - app.core.config - INFO - Access token created successfully
+2025-04-03 15:49:24,507 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-03 15:49:24,526 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-03 15:49:24,534 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-03 17:47:47,111 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-03 17:47:48,611 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-03 17:47:48,621 - app.core.config - ERROR - Request failed: POST http://localhost:8000/api/v1/auth/login - Error: Object of type FormData is not JSON serializable
+2025-04-03 17:47:49,166 - app.core.config - ERROR - Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 147, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 37, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 153, in call_next
+    raise app_exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 48, in validation_exception_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 182, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 45, in __init__
+    self.body = self.render(content)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 185, in render
+    return json.dumps(
+           ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FormData is not JSON serializable
+
+2025-04-04 11:29:24,775 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 11:29:24,825 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 11:29:25,518 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 11:29:25,521 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:29:25,521 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 11:29:25,521 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:29:25,521 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 11:29:25,521 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:29:25,533 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 11:29:25,533 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 11:29:25,533 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:29:25,659 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 11:29:25,697 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 11:29:25,703 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 11:29:25,703 - sqlalchemy.engine.Engine - INFO - [generated in 0.00147s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 11:33:06,730 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-04 11:33:07,177 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-04 11:33:08,005 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-04-04 11:33:08,301 - app.core.config - INFO - Request completed: GET http://localhost:8000/openapi.json - Status: 200
+2025-04-04 11:37:49,540 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 11:37:50,355 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-04 11:37:50,366 - app.core.config - ERROR - Request failed: POST http://localhost:8000/api/v1/auth/login - Error: Object of type FormData is not JSON serializable
+2025-04-04 11:37:50,769 - app.core.config - ERROR - Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 147, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 37, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 153, in call_next
+    raise app_exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 48, in validation_exception_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 182, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 45, in __init__
+    self.body = self.render(content)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 185, in render
+    return json.dumps(
+           ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FormData is not JSON serializable
+
+2025-04-04 11:43:46,003 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 11:43:46,028 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 11:43:47,368 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 11:43:47,368 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:43:47,380 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 11:43:47,382 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:43:47,384 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 11:43:47,384 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:43:47,388 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 11:43:47,388 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 11:43:47,390 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 11:43:47,612 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 11:43:47,645 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 11:43:47,654 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 11:43:47,657 - sqlalchemy.engine.Engine - INFO - [generated in 0.00094s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 13:22:07,783 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-04 13:22:08,097 - app.core.config - INFO - Request completed: GET http://localhost:8000/docs - Status: 200
+2025-04-04 13:29:23,412 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 13:29:23,580 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,617 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 13:29:23,619 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 13:29:23,619 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 13:29:23,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 13:29:23,641 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 13:29:23,641 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 13:29:23,837 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 13:29:24,919 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 13:29:24,965 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 13:29:24,994 - sqlalchemy.engine.Engine - INFO - [cached since 6337s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 13:29:25,203 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-04 13:29:25,227 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-04 13:29:26,764 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 13:29:26,792 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 8, 29, 26, 776454)}
+2025-04-04 13:29:27,193 - app.core.config - INFO - Access token created successfully
+2025-04-04 13:29:27,193 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 13:29:27,226 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 13:29:27,246 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 13:55:03,980 - app.core.config - INFO - Incoming request: POST http://localhost:8000/auth/login
+2025-04-04 13:55:05,538 - app.core.config - INFO - Request completed: POST http://localhost:8000/auth/login - Status: 404
+2025-04-04 14:13:33,411 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:13:34,231 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:13:34,237 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:13:34,364 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,458 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:13:34,482 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:13:34,528 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:34,548 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,548 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:13:34,549 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:13:34,551 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:34,565 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,569 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:13:34,571 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:13:34,571 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:34,572 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,636 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:13:34,641 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:34,649 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,651 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:13:34,682 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:13:34,898 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:34,915 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:34,917 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:13:35,109 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:13:35,263 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,271 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:13:35,537 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,541 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:13:35,544 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:13:35,546 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,546 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,557 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:13:35,558 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:13:35,559 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,559 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,559 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:13:35,571 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:13:35,579 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,590 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,597 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:13:35,608 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,611 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,614 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:13:35,693 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:13:35,699 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,718 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,809 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:13:35,871 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:13:35,888 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,894 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:13:35,896 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,897 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:13:35,897 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:13:35,897 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,898 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,898 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:13:35,899 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:13:35,901 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,905 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,907 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:13:35,908 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:13:35,909 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,909 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,910 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:13:35,911 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,912 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,913 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:13:35,913 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:13:35,913 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,915 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:13:35,917 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:13:35,918 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:13:35,921 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:13:35,924 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:13:38,570 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:13:38,571 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:13:38,571 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:13:41,430 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:13:41,507 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:13:41,545 - sqlalchemy.engine.Engine - INFO - [cached since 8994s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:13:41,883 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:13:41,884 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:13:41,907 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:13:41,910 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:13:41,911 - sqlalchemy.engine.Engine - INFO - [cached since 8994s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:13:41,917 - sqlalchemy.engine.Engine - INFO - [cached since 8994s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:13:43,461 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:13:43,756 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:13:43,756 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 13, 43, 654641)}
+2025-04-04 14:13:43,759 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 13, 43, 759515)}
+2025-04-04 14:13:43,964 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:13:44,015 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 13, 44, 14217)}
+2025-04-04 14:13:44,581 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:13:44,583 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:13:44,589 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:13:44,593 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:13:44,603 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:13:44,614 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:13:44,755 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:13:44,760 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:13:44,800 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:13:44,846 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:13:45,172 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:13:45,182 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:16:25,301 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 14:16:25,433 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 14:16:26,876 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 14:16:26,881 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 14:16:26,893 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 14:16:26,894 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 14:16:26,906 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 14:16:26,907 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 14:16:26,914 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:16:26,918 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 14:16:26,921 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 14:16:27,105 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 14:16:27,140 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:16:27,153 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:16:27,156 - sqlalchemy.engine.Engine - INFO - [generated in 0.00327s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:32,793 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:32,929 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,953 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:32,954 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:32,955 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,955 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,955 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:32,956 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:32,956 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,957 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,957 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:32,959 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:32,960 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,961 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,961 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:32,965 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,968 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,968 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:32,969 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:32,969 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,972 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:32,972 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:32,973 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:32,978 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:32,979 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:33,126 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:33,432 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:33,453 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:33,457 - sqlalchemy.engine.Engine - INFO - [cached since 66.3s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:33,558 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-04 14:17:33,562 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-04 14:17:34,268 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:34,275 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 34, 272279)}
+2025-04-04 14:17:34,315 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:34,319 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,320 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:34,320 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:34,321 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,321 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,321 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:34,323 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:34,324 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,326 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,326 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:34,326 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:34,327 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,327 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,327 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:34,331 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,331 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,331 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:34,331 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:34,331 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,332 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:34,332 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:34,334 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:34,336 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:34,337 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:34,347 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:34,431 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:34,433 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:34,466 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:34,467 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:34,477 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:34,481 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:34,482 - sqlalchemy.engine.Engine - INFO - [cached since 67.33s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:35,453 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:35,454 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 35, 454950)}
+2025-04-04 14:17:35,456 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:35,457 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:35,461 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:35,468 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:46,979 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:46,993 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:46,998 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,000 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:47,001 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:47,002 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,003 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,003 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:47,004 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:47,004 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,004 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,004 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:47,005 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:47,006 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,006 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,006 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:47,007 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,007 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,008 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:47,008 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:47,008 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,008 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,009 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:47,009 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:47,010 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,010 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:47,013 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,017 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:47,018 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:47,018 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,019 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,019 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:47,019 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:47,020 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,021 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,021 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:47,021 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:47,022 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,022 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,022 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:47,023 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,024 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,025 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:47,025 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:47,027 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,029 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,030 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:47,031 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:47,033 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,034 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:47,093 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:47,093 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:47,121 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:47,122 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:47,133 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:47,135 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:47,136 - sqlalchemy.engine.Engine - INFO - [cached since 79.98s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:47,136 - sqlalchemy.engine.Engine - INFO - [cached since 79.98s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:47,562 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:47,567 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,568 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:47,569 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:47,569 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,569 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,569 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:47,570 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:47,571 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,571 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,571 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:47,572 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:47,572 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,573 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,574 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:47,574 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,574 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,574 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:47,575 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:47,575 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,576 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:47,576 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:47,576 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:47,577 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:47,577 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:47,582 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:47,699 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:47,702 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:47,706 - sqlalchemy.engine.Engine - INFO - [cached since 80.55s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:48,133 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:48,138 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 48, 137947)}
+2025-04-04 14:17:48,174 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:48,197 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:48,197 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 48, 197032)}
+2025-04-04 14:17:48,202 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:48,204 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:48,211 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:48,222 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:48,225 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:48,227 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:48,236 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:48,958 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:48,964 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:48,977 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:48,979 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:48,980 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:48,992 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,004 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:49,018 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:49,025 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,025 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,028 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:49,029 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:49,030 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,031 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,035 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:49,037 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,039 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,040 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:49,041 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:49,041 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,042 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,044 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:49,053 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:49,056 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,056 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:49,062 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:49,073 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:49,117 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:49,150 - sqlalchemy.engine.Engine - INFO - [cached since 82s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:49,518 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:49,521 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 49, 521313)}
+2025-04-04 14:17:49,544 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:49,560 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:49,577 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:49,581 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:49,814 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:49,831 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,838 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:49,840 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:49,841 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,841 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,841 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:49,843 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:49,844 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,845 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,855 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:49,856 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:49,856 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,858 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,862 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:49,868 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,869 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,873 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:49,875 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:49,877 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,878 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:49,881 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:49,886 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:49,889 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:49,891 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:49,898 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:49,904 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:49,920 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:49,931 - sqlalchemy.engine.Engine - INFO - [cached since 82.78s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:50,061 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:50,067 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,069 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:50,070 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:50,072 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,072 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,074 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:50,077 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:50,084 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,088 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,092 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:50,101 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:50,107 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,109 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,116 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:50,120 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,124 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,126 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:50,126 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:50,128 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,129 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,129 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:50,131 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:50,133 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,137 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:50,144 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:50,152 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:50,161 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:50,173 - sqlalchemy.engine.Engine - INFO - [cached since 83.02s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:50,601 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:50,607 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,612 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:50,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:50,623 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,627 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,635 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:50,637 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:50,641 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,645 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,648 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:50,651 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:50,655 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,662 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,668 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:50,673 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,674 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,675 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:50,679 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:50,685 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,689 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:50,693 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:50,694 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:50,695 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:50,695 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:50,746 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:50,760 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:50,775 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:50,775 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:50,778 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 50, 777924)}
+2025-04-04 14:17:50,779 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:50,784 - sqlalchemy.engine.Engine - INFO - [cached since 83.63s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:50,804 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:50,811 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:50,857 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:51,013 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:51,021 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,026 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:51,028 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:51,038 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,043 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,045 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:51,048 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:51,052 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,052 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,054 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:51,055 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:51,060 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,064 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,065 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:51,066 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,074 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,077 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:51,078 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:51,079 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,084 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,088 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:51,092 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:51,093 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,096 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:51,101 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:51,103 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:51,121 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:51,135 - sqlalchemy.engine.Engine - INFO - [cached since 83.98s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:51,187 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:51,191 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 51, 191029)}
+2025-04-04 14:17:51,192 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:51,193 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:51,204 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:51,207 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:51,516 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:17:51,525 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,528 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:17:51,533 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:17:51,537 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,541 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,547 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:17:51,553 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:17:51,558 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,562 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,565 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:17:51,568 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:17:51,572 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,575 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,580 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:17:51,587 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,593 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,596 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:17:51,597 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:17:51,601 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,608 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:17:51,613 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:17:51,621 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:17:51,627 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:17:51,636 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:17:51,645 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:17:51,654 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:17:51,669 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:17:51,685 - sqlalchemy.engine.Engine - INFO - [cached since 84.53s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:17:51,808 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:51,821 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 51, 821894)}
+2025-04-04 14:17:51,834 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:51,856 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:51,881 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:51,910 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:52,454 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:52,467 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 52, 464227)}
+2025-04-04 14:17:52,478 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:52,488 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:52,510 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:52,524 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:52,787 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:52,791 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 52, 791726)}
+2025-04-04 14:17:52,795 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:52,800 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:52,820 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:52,841 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:17:53,284 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:17:53,310 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 17, 53, 310611)}
+2025-04-04 14:17:53,319 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:17:53,328 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:17:53,339 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:17:53,350 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:18:16,444 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:18:16,864 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:16,877 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:18:16,879 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:18:16,889 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:16,902 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:16,905 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:18:16,915 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:18:16,916 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:16,920 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:16,930 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:18:16,937 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:18:16,941 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:16,945 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:16,959 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:18:16,966 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:16,973 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:17,013 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:18:17,016 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:18:17,017 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:17,017 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:18:17,018 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:18:17,022 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:18:17,037 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:18:17,039 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:18:17,372 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:18:19,001 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:18:19,756 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:18:19,827 - sqlalchemy.engine.Engine - INFO - [cached since 112.7s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:18:23,138 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:18:23,330 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 18, 23, 313131)}
+2025-04-04 14:18:23,738 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:18:23,742 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:18:23,828 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:18:23,901 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:24:44,691 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:24:44,825 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,829 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:24:44,831 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:24:44,842 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,843 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,845 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:24:44,845 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:24:44,859 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,863 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,871 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:24:44,882 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:24:44,907 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,908 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,909 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:24:44,909 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,915 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,919 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:24:44,922 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:24:44,923 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,925 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:24:44,926 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:24:44,927 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:24:44,932 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:24:44,933 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:24:45,140 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:24:45,441 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:24:45,477 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:24:45,484 - sqlalchemy.engine.Engine - INFO - [cached since 498.3s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:24:46,518 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:24:46,535 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 24, 46, 530291)}
+2025-04-04 14:24:46,629 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:24:46,629 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:24:46,675 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:24:46,713 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:50:22,628 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:50:22,727 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,735 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:50:22,737 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:50:22,738 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,740 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:50:22,741 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:50:22,742 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,742 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,743 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:50:22,743 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:50:22,743 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,744 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,746 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:50:22,747 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,750 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,753 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:50:22,757 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:50:22,758 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,759 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:22,760 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:50:22,761 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:50:22,767 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:22,768 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:50:22,853 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:50:23,084 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:50:23,119 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:50:23,125 - sqlalchemy.engine.Engine - INFO - [cached since 2036s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:50:24,568 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:50:24,602 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 50, 24, 600543)}
+2025-04-04 14:50:27,505 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:50:27,506 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:50:28,169 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:50:28,720 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:50:48,999 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:50:49,239 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,241 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:50:49,243 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:50:49,243 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,243 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,245 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:50:49,245 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:50:49,246 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,247 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,249 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:50:49,249 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:50:49,249 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,251 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,252 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:50:49,254 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,260 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,262 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:50:49,263 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:50:49,263 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,265 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:50:49,266 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:50:49,266 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:50:49,273 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:50:49,273 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:50:49,566 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:50:50,915 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:50:51,518 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:50:51,583 - sqlalchemy.engine.Engine - INFO - [cached since 2064s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:50:53,567 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:50:53,760 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 50, 53, 704418)}
+2025-04-04 14:50:54,900 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:50:54,922 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:50:55,107 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:50:55,226 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:23,643 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:25,541 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:26,348 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:26,354 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:26,800 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,844 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:26,852 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:26,855 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,858 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,862 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:26,863 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:26,871 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,875 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,876 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:26,876 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:26,876 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,876 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,877 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:26,878 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,882 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,885 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:26,888 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:26,889 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,890 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:26,891 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:26,904 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:26,924 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:26,924 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:27,014 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,036 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:27,037 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:27,037 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,038 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,038 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:27,038 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:27,038 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,041 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,046 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:27,052 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:27,056 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,058 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,063 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:27,072 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,075 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,080 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:27,082 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:27,084 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,085 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,089 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:27,091 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:27,095 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,096 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:27,112 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,113 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:27,120 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:27,120 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,121 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,122 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:27,122 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:27,127 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,129 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,129 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:27,129 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:27,129 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,132 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,137 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:27,137 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,142 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,142 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:27,144 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:27,144 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,145 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,145 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:27,146 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:27,149 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,152 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:27,157 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,158 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:27,158 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:27,158 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,159 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,159 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:27,160 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:27,160 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,160 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,161 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:27,161 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:27,163 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,168 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,170 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:27,170 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,172 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,176 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:27,177 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:27,178 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,179 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:27,179 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:27,182 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:27,184 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:27,185 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:27,310 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:27,311 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:27,311 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:27,335 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:27,705 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:27,706 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:27,708 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:27,708 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:27,803 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:27,804 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:27,805 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:27,807 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:27,818 - sqlalchemy.engine.Engine - INFO - [cached since 2101s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:27,816 - sqlalchemy.engine.Engine - INFO - [cached since 2101s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:27,813 - sqlalchemy.engine.Engine - INFO - [cached since 2101s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:27,844 - sqlalchemy.engine.Engine - INFO - [cached since 2101s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:28,882 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:28,897 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:28,909 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:28,920 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:28,945 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:28,962 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:28,973 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:28,973 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:29,023 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:29,045 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:29,087 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:29,117 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:29,144 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:29,163 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:29,220 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:29,260 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:29,289 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:29,322 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:29,344 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:29,378 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:29,399 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:29,429 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:29,504 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:29,543 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:29,572 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:29,795 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:29,948 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:30,056 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 30, 46942)}
+2025-04-04 14:51:30,247 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:30,269 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:30,321 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 30, 321723)}
+2025-04-04 14:51:30,322 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:30,362 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 30, 362115)}
+2025-04-04 14:51:30,562 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 30, 562572)}
+2025-04-04 14:51:31,362 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:31,366 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:31,367 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:31,370 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:31,370 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:31,371 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:31,385 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:31,414 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:31,414 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:31,418 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:31,424 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:31,429 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:31,449 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:31,476 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:31,482 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:31,487 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:31,693 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:31,698 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:31,702 - sqlalchemy.engine.Engine - INFO - [cached since 2105s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:32,589 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:32,594 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 32, 594106)}
+2025-04-04 14:51:32,600 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:32,605 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:32,612 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:32,627 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:51:49,392 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:51:49,420 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,445 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-04 14:51:49,464 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-04 14:51:49,478 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,488 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,493 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-04 14:51:49,495 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-04-04 14:51:49,509 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,524 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,529 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-04-04 14:51:49,536 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 14:51:49,546 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,556 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,564 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 14:51:49,573 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,576 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,577 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 14:51:49,581 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 14:51:49,588 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,589 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 14:51:49,594 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 14:51:49,595 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 14:51:49,596 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 14:51:49,597 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 14:51:49,737 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 14:51:49,784 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 14:51:49,794 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 14:51:49,807 - sqlalchemy.engine.Engine - INFO - [cached since 2123s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 14:51:51,376 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 14:51:51,485 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 9, 51, 51, 462733)}
+2025-04-04 14:51:51,508 - app.core.config - INFO - Access token created successfully
+2025-04-04 14:51:51,527 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 14:51:51,559 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 14:51:51,578 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:56:24,824 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/auth/login
+2025-04-04 14:56:25,019 - app.core.config - INFO - Request completed: OPTIONS http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 14:56:25,470 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:56:25,699 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-04 14:56:25,709 - app.core.config - ERROR - Request failed: POST http://localhost:8000/api/v1/auth/login - Error: Object of type FormData is not JSON serializable
+2025-04-04 14:56:26,832 - app.core.config - ERROR - Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 147, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 38, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 153, in call_next
+    raise app_exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 49, in validation_exception_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 182, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 45, in __init__
+    self.body = self.render(content)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 185, in render
+    return json.dumps(
+           ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FormData is not JSON serializable
+
+2025-04-04 14:59:27,777 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 14:59:30,483 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-04 14:59:30,938 - app.core.config - ERROR - Request failed: POST http://localhost:8000/api/v1/auth/login - Error: Object of type FormData is not JSON serializable
+2025-04-04 14:59:32,427 - app.core.config - ERROR - Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 147, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 38, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 153, in call_next
+    raise app_exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\app\main.py", line 49, in validation_exception_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 182, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 45, in __init__
+    self.body = self.render(content)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Munees\Desktop\jwtfastapi-master\jwtfastapi\server\jwtpy\Lib\site-packages\starlette\responses.py", line 185, in render
+    return json.dumps(
+           ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type FormData is not JSON serializable
+
+2025-04-04 15:17:36,286 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 15:17:36,359 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 15:17:37,204 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 15:17:37,204 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 15:17:37,214 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 15:17:37,214 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 15:17:37,221 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 15:17:37,221 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 15:17:37,225 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 15:17:37,227 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 15:17:37,227 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 15:17:37,335 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 15:17:37,375 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 15:17:37,385 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 15:17:37,388 - sqlalchemy.engine.Engine - INFO - [generated in 0.00237s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 15:56:52,167 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/auth/login
+2025-04-04 15:56:52,468 - app.core.config - INFO - Request completed: OPTIONS http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 15:56:53,242 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 15:56:54,106 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-04 15:56:54,127 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 422
+2025-04-04 15:57:12,706 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 15:57:13,378 - app.core.config - ERROR - Validation error: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None}]
+2025-04-04 15:57:13,392 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 422
+2025-04-04 16:00:39,554 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 16:00:39,659 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:00:39,706 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-04-04 16:00:39,711 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-04-04 16:00:39,714 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:00:39,715 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:00:39,715 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-04-04 16:00:39,716 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-04-04 16:00:39,729 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:00:39,732 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 16:00:39,782 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 16:00:40,398 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:00:40,440 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:00:40,452 - sqlalchemy.engine.Engine - INFO - [cached since 2583s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:00:40,628 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-04 16:00:40,650 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-04 16:00:41,901 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 16:00:41,915 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 11, 0, 41, 910707)}
+2025-04-04 16:00:42,199 - app.core.config - INFO - Access token created successfully
+2025-04-04 16:00:42,200 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 16:00:42,237 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 16:00:42,264 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 16:21:03,004 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 16:21:03,367 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,372 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-04-04 16:21:03,372 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-04-04 16:21:03,373 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,375 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,379 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-04-04 16:21:03,380 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-04-04 16:21:03,380 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,396 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,396 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-04-04 16:21:03,396 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 16:21:03,397 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,397 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,397 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 16:21:03,397 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,397 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,398 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 16:21:03,398 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 16:21:03,398 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,398 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:03,399 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 16:21:03,399 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 16:21:03,407 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:03,408 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 16:21:03,685 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 16:21:03,752 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:21:03,773 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:21:03,778 - sqlalchemy.engine.Engine - INFO - [cached since 3806s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:21:04,437 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 16:21:04,442 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 11, 21, 4, 441709)}
+2025-04-04 16:21:04,479 - app.core.config - INFO - Access token created successfully
+2025-04-04 16:21:04,480 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 16:21:04,494 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 16:21:04,516 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 16:21:31,483 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 16:21:31,879 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:31,903 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-04-04 16:21:31,906 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-04-04 16:21:31,913 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:31,930 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:31,930 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-04-04 16:21:31,938 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-04-04 16:21:31,964 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:31,983 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:31,986 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-04-04 16:21:32,033 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 16:21:32,037 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:32,041 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:32,069 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 16:21:32,079 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:32,081 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:32,081 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 16:21:32,089 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 16:21:32,097 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:32,108 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:21:32,132 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 16:21:32,141 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 16:21:32,172 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:21:32,186 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 16:21:32,804 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 16:21:33,462 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:21:33,575 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:21:33,595 - sqlalchemy.engine.Engine - INFO - [cached since 3836s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:21:38,199 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 16:21:38,281 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 11, 21, 38, 254404)}
+2025-04-04 16:21:38,893 - app.core.config - INFO - Access token created successfully
+2025-04-04 16:21:38,900 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 16:21:39,022 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 16:21:39,400 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 16:26:39,475 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 16:26:39,507 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 16:26:40,317 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 16:26:40,318 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:26:40,326 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 16:26:40,327 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:26:40,330 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 16:26:40,331 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:26:40,334 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:26:40,335 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 16:26:40,336 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:26:40,463 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 16:26:40,491 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:26:40,496 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:26:40,497 - sqlalchemy.engine.Engine - INFO - [generated in 0.00073s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:29:29,000 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-04 16:29:29,040 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-04 16:29:31,111 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-04 16:29:31,113 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:29:31,137 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-04 16:29:31,139 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:29:31,143 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-04 16:29:31,143 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:29:31,155 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:29:31,164 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-04 16:29:31,166 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-04 16:29:31,458 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-04 16:29:31,527 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:29:31,551 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:29:31,567 - sqlalchemy.engine.Engine - INFO - [generated in 0.01281s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:53:11,387 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 16:53:11,553 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,587 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-04-04 16:53:11,593 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-04-04 16:53:11,593 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,597 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,599 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-04-04 16:53:11,600 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-04-04 16:53:11,605 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,607 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,607 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-04-04 16:53:11,608 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 16:53:11,610 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,610 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,612 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 16:53:11,614 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,625 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,629 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 16:53:11,630 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 16:53:11,634 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,638 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:53:11,638 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 16:53:11,640 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 16:53:11,650 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:53:11,651 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 16:53:11,858 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 16:53:14,155 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:53:14,662 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:53:14,737 - sqlalchemy.engine.Engine - INFO - [cached since 1423s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:53:14,960 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-04-04 16:53:15,087 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-04-04 16:53:17,483 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 16:53:17,521 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 11, 53, 17, 511712)}
+2025-04-04 16:53:17,939 - app.core.config - INFO - Access token created successfully
+2025-04-04 16:53:17,944 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 16:53:17,993 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 16:53:18,023 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-04 16:53:58,444 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-04-04 16:54:01,476 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,518 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-04-04 16:54:01,523 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-04-04 16:54:01,538 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,550 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,550 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-04-04 16:54:01,555 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-04-04 16:54:01,559 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,562 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,571 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-04-04 16:54:01,579 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-04-04 16:54:01,579 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,583 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,586 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-04-04 16:54:01,588 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,593 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,594 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-04-04 16:54:01,594 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-04-04 16:54:01,615 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,618 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-04 16:54:01,646 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-04-04 16:54:01,650 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-04-04 16:54:01,699 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-04 16:54:01,716 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-04 16:54:02,628 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-04-04 16:54:05,611 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-04 16:54:06,713 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-04 16:54:06,908 - sqlalchemy.engine.Engine - INFO - [cached since 1475s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-04 16:54:09,894 - app.core.config - DEBUG - Password verification succeeded
+2025-04-04 16:54:10,028 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': <Role.ADMIN: 'admin'>, 'exp': datetime.datetime(2025, 4, 4, 11, 54, 10, 26734)}
+2025-04-04 16:54:10,635 - app.core.config - INFO - Access token created successfully
+2025-04-04 16:54:10,657 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-04-04 16:54:10,819 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-04 16:54:10,887 - app.core.config - INFO - Request completed: POST http://localhost:8000/api/v1/auth/login - Status: 200
+2025-04-05 02:58:11,468 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-05 02:58:11,547 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-05 02:58:13,407 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-05 02:58:13,409 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-05 02:58:13,420 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-05 02:58:13,426 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-05 02:58:13,435 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-05 02:58:13,439 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-05 02:58:13,443 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-05 02:58:13,445 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-05 02:58:13,445 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-05 02:58:14,165 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-05 02:58:14,205 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-05 02:58:14,256 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.`role` AS users_role, users.is_verified AS users_is_verified 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-05 02:58:14,276 - sqlalchemy.engine.Engine - INFO - [generated in 0.01468s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-05 02:58:22,682 - app.core.config - INFO - Incoming request: GET http://localhost:8000/favicon.ico
+2025-04-05 02:58:22,700 - app.core.config - INFO - Request completed: GET http://localhost:8000/favicon.ico - Status: 404
+2025-04-05 02:58:22,732 - app.core.config - INFO - Incoming request: GET http://localhost:8000/null
+2025-04-05 02:58:22,734 - app.core.config - INFO - Request completed: GET http://localhost:8000/null - Status: 404
