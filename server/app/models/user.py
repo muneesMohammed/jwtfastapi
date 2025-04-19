@@ -1,6 +1,7 @@
 from sqlalchemy import Boolean, Column, Integer, String, Enum
 from app.db.base import Base
 from enum import Enum as PyEnum
+from sqlalchemy.orm import relationship
 
 class Role(str, PyEnum):
     ADMIN = "admin"
@@ -17,3 +18,4 @@ class User(Base):
     is_active = Column(Boolean, default=True)
     role = Column(Enum(Role), default=Role.USER)
     is_verified = Column(Boolean, default=False)
+    daily_reports = relationship("DailyReport", back_populates="user") 

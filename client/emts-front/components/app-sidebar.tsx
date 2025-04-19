@@ -7,12 +7,15 @@ import {
   Calendar,
   Command,
   Home,
+  Flag,
   Inbox,
   MessageCircleQuestion,
   Search,
   Settings2,
   Sparkles,
   Trash2,
+  ClipboardPlus,
+  FileClock
 } from "lucide-react"
 
 import { NavFavorites } from "@/components/nav-favorites"
@@ -26,6 +29,7 @@ import {
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar"
+import { Plus } from "lucide-react"
 
 // This is sample data.
 const data = {
@@ -59,10 +63,33 @@ const data = {
     },
     {
       title: "Home",
-      url: "#",
+      url: "/foreman/dashboard",
       icon: Home,
       isActive: true,
     },
+    {
+      title: "TasksCreate",
+      url: "/foreman/tasks/create",
+      icon:  ClipboardPlus,
+      isActive: true,
+    },
+    {
+      title: "Daily Report",
+      url: "/foreman/daily-report",
+      icon: Flag,
+      isActive: true,
+    },
+    {
+       title: "Log Hours",
+       url:"/foreman/log-hours",
+       icon: FileClock, 
+       isActive: true, 
+      },
+    { 
+      title: "Workers",
+       url: "/foreman/workers",
+        icon: Home, 
+        isActive: true, },
     {
       title: "Inbox",
       url: "#",
@@ -99,52 +126,52 @@ const data = {
   ],
   favorites: [
     {
-      name: "Project Management & Task Tracking",
+      name: "Masaar",
       url: "#",
       emoji: "📊",
     },
     {
-      name: "Family Recipe Collection & Meal Planning",
+      name: "Mohammed bin Rashid City",
       url: "#",
       emoji: "🍳",
     },
     {
-      name: "Fitness Tracker & Workout Routines",
+      name: "The Dubai Creek Tower",
       url: "#",
       emoji: "💪",
     },
     {
-      name: "Book Notes & Reading List",
+      name: "Burj Binghatti Jacob & Co Residences",
       url: "#",
       emoji: "📚",
     },
     {
-      name: "Sustainable Gardening Tips & Plant Care",
+      name: "Agri Hub by URB",
       url: "#",
       emoji: "🌱",
     },
     {
-      name: "Language Learning Progress & Resources",
+      name: "Dubai Urban Tech District",
       url: "#",
       emoji: "🗣️",
     },
     {
-      name: "Home Renovation Ideas & Budget Tracker",
+      name: "One Za'abeel",
       url: "#",
       emoji: "🏠",
     },
     {
-      name: "Personal Finance & Investment Portfolio",
+      name: "Ciel Dubai",
       url: "#",
       emoji: "💰",
     },
     {
-      name: "Movie & TV Show Watchlist with Reviews",
+      name: "Sobha Motor City",
       url: "#",
       emoji: "🎬",
     },
     {
-      name: "Daily Habit Tracker & Goal Setting",
+      name: "Dubai Vertical City",
       url: "#",
       emoji: "✅",
     },
@@ -274,3 +301,15 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     </Sidebar>
   )
 }
+
+
+
+
+
+
+const navItems = [
+  { name: "Dashboard", href: "/foreman/dashboard" },
+  { name: "Reports", href: "/foreman/reports" },
+  { name: "TasksCreate", href: "/foreman/tasks/create" },
+
+];

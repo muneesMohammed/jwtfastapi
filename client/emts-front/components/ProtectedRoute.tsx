@@ -1,23 +1,30 @@
 // components/ProtectedRoute.tsx
 "use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { isAuthenticated } from '@/lib/auth';
-import { Spinner } from '@/components/ui/spinner';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import Spinner from "@/components/spinner";
+import { getToken, isTokenExpired } from "@/lib/auth";
 
 export default function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const [isAuth, setIsAuth] = useState<boolean | null>(null);
 
   useEffect(() => {
-    const checkAuth = async () => {
-      const authenticated = await isAuthenticated();
-      setIsAuth(authenticated);
-      if (!authenticated) {
-        router.push('/login');
+    const checkAuth = () => {
+      const token = getToken();
+      if (!token || isTokenExpired(token)) {
+        // Optional: clear token
+        localStorage.removeItem("token");
+
+        // Redirect to session expired page
+        router.push("/session-expired");
+        setIsAuth(false);
+      } else {
+        setIsAuth(true);
       }
     };
+
     checkAuth();
   }, [router]);
 
