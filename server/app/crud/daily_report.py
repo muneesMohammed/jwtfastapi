@@ -9,18 +9,22 @@ from app.models.user import User
 from sqlalchemy.exc import IntegrityError
 from fastapi import HTTPException
 
-# try:
-#     db.commit()
-# except IntegrityError as e:
-#     db.rollback()
-#     raise HTTPException(status_code=400, detail="Invalid project_id: referenced project does not exist.")
 
-
-def create_daily_report(db: Session, report_in: DailyReportCreate) -> DailyReport:
-    report = DailyReport(date=report_in.date, project_id=report_in.project_id, user_id=report_in.user_id)
+def create_daily_report(db: Session, report_in: DailyReportCreate, current_user: User) -> DailyReport:
+    report = DailyReport(
+        date=report_in.date,
+        project_id=report_in.project_id,
+        remarks=report_in.remarks,
+        user_id=current_user.id,
+    )
     db.add(report)
-    db.commit()
-    db.refresh(report)
+    
+    try:
+        db.commit()
+        db.refresh(report)
+    except IntegrityError:
+        db.rollback()
+        raise HTTPException(status_code=400, detail="Invalid project_id: referenced project does not exist.")
 
     for mp in report_in.manpower:
         manpower = ManpowerUtilized(report_id=report.id, **mp.dict())
@@ -60,7 +64,6 @@ def get_daily_report_by_id(db: Session, report_id: int) -> Optional[DailyReport]
     return db.query(DailyReport).filter(DailyReport.id == report_id).first()
 
 
-
 def delete_daily_report(db: Session, report_id: int) -> bool:
     report = db.query(DailyReport).filter(DailyReport.id == report_id).first()
     if not report:
@@ -81,6 +84,7 @@ def update_daily_report(
 
     report.date = report_in.date
     report.project_id = report_in.project_id
+    report.remarks = report_in.remarks
 
     # Step 1: Delete existing associated records
     db.query(ManpowerUtilized).filter(ManpowerUtilized.report_id == report.id).delete()
