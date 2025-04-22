@@ -2,7 +2,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const API_URL = 'http://localhost:8000'; // Your FastAPI backend URL
+const API_URL = 'https://jwtfastapi-production.up.railway.app/'; // Your FastAPI backend URL
 
 export const login = async (username: string, password: string) => {
   try {
