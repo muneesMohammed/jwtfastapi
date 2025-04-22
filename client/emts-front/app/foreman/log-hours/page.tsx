@@ -7,6 +7,8 @@ import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import { toast } from 'sonner'
 
+type CheckboxType = 'section' | 'precheck'
+
 export default function GangProductivityForm() {
   const [formData, setFormData] = useState({
     projectNo: '',
@@ -14,26 +16,30 @@ export default function GangProductivityForm() {
     date: '',
     supervisorName: '',
     supervisorDesignation: '',
-    section: [],
-    precheck: [],
+    section: [] as string[],
+    precheck: [] as string[],
   })
 
   const sectionOptions = ['Hard Landscape', 'Soft Landscape', 'Irrigation', 'MEP', 'HS Finishes', 'Others']
   const precheckOptions = [
     'Availability of Construction NOC & Permits',
     'Engineering Approvals',
-    'Material Availability at Site'
+    'Material Availability at Site',
   ]
 
-  const handleCheckboxChange = (type, value) => {
+  const handleCheckboxChange = (type: CheckboxType, value: string) => {
     setFormData(prev => {
       const selected = new Set(prev[type])
-      selected.has(value) ? selected.delete(value) : selected.add(value)
+      if (selected.has(value)) {
+        selected.delete(value)
+      } else {
+        selected.add(value)
+      }
       return { ...prev, [type]: Array.from(selected) }
     })
   }
 
-  const handleChange = e => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target
     setFormData(prev => ({ ...prev, [name]: value }))
   }
@@ -64,7 +70,7 @@ export default function GangProductivityForm() {
         const err = await res.json()
         toast.error(err.detail || 'Failed to submit')
       }
-    } catch (err) {
+    } catch {
       toast.error('Something went wrong')
     }
   }

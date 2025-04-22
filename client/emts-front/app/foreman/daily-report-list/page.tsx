@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -11,8 +11,16 @@ import {
 import { toast } from 'sonner';
 import Spinner from '@/components/spinner';
 import ProtectedRoute from '@/components/ProtectedRoute';
-import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction } from "@/components/ui/alert-dialog";
-
+import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogCancel,
+  AlertDialogAction,
+} from "@/components/ui/alert-dialog";
 
 interface DailyReport {
   id: number;
@@ -30,10 +38,9 @@ export default function DailyReportListPage() {
   const [limit] = useState(10);
   const [deleteId, setDeleteId] = useState<number | null>(null);
 
-
   const router = useRouter();
 
-  const fetchReports = async () => {
+  const fetchReports = useCallback(async () => {
     setLoading(true);
     const token = localStorage.getItem('token');
     const params = new URLSearchParams({
@@ -57,37 +64,12 @@ export default function DailyReportListPage() {
 
       const data = await res.json();
       setReports(data.data || []);
-    } catch (err) {
+    } catch {
       toast.error('Failed to load reports');
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleDelete = async (id: number) => {
-    const confirmed = confirm('Are you sure you want to delete this report?');
-    if (!confirmed) return;
-
-    const token = localStorage.getItem('token');
-    try {
-      const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/v1/daily-report/${id}`,
-        {
-          method: 'DELETE',
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        },
-      );
-
-      if (!res.ok) throw new Error('Delete failed');
-
-      toast.success('Deleted report');
-      fetchReports();
-    } catch (err) {
-      toast.error('Failed to delete');
-    }
-  };
+  }, [page, limit, dateFilter, projectFilter]);
 
   const handleEdit = (id: number) => {
     router.push(`/foreman/daily-report/edit/${id}`);
@@ -95,7 +77,7 @@ export default function DailyReportListPage() {
 
   useEffect(() => {
     fetchReports();
-  }, [page]);
+  }, [fetchReports]);
 
   return (
     <ProtectedRoute>
@@ -152,13 +134,9 @@ export default function DailyReportListPage() {
                         <Button size="sm" variant="outline" onClick={() => handleEdit(report.id)}>
                           Edit
                         </Button>
-                        {/* <Button size="sm" variant="destructive" onClick={() => handleDelete(report.id)}>
-                          Delete
-                        </Button> */}
                         <Button size="sm" variant="destructive" onClick={() => setDeleteId(report.id)}>
                           Delete
                         </Button>
-
                       </TableCell>
                     </TableRow>
                   ))}
@@ -181,49 +159,50 @@ export default function DailyReportListPage() {
             </div>
           </CardContent>
         </Card>
+
+        {/* Delete Confirmation Dialog */}
         <AlertDialog open={deleteId !== null} onOpenChange={() => setDeleteId(null)}>
-  <AlertDialogContent>
-    <AlertDialogHeader>
-      <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-      <AlertDialogDescription>
-        This action cannot be undone. This will permanently delete this report.
-      </AlertDialogDescription>
-    </AlertDialogHeader>
-    <AlertDialogFooter>
-      <AlertDialogCancel>Cancel</AlertDialogCancel>
-      <AlertDialogAction
-        onClick={async () => {
-          if (deleteId !== null) {
-            const token = localStorage.getItem('token');
-            try {
-              const res = await fetch(
-                `${process.env.NEXT_PUBLIC_API_URL}/api/v1/daily-report/${deleteId}`,
-                {
-                  method: 'DELETE',
-                  headers: {
-                    Authorization: `Bearer ${token}`,
-                  },
-                },
-              );
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogDescription>
+                This action cannot be undone. This will permanently delete this report.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction
+                onClick={async () => {
+                  if (deleteId !== null) {
+                    const token = localStorage.getItem('token');
+                    try {
+                      const res = await fetch(
+                        `${process.env.NEXT_PUBLIC_API_URL}/api/v1/daily-report/${deleteId}`,
+                        {
+                          method: 'DELETE',
+                          headers: {
+                            Authorization: `Bearer ${token}`,
+                          },
+                        },
+                      );
 
-              if (!res.ok) throw new Error('Delete failed');
+                      if (!res.ok) throw new Error('Delete failed');
 
-              toast.success('Deleted report');
-              fetchReports();
-            } catch (err) {
-              toast.error('Failed to delete');
-            } finally {
-              setDeleteId(null); // Close dialog
-            }
-          }
-        }}
-      >
-        Delete
-      </AlertDialogAction>
-    </AlertDialogFooter>
-  </AlertDialogContent>
-</AlertDialog>
-
+                      toast.success('Deleted report');
+                      fetchReports();
+                    } catch {
+                      toast.error('Failed to delete');
+                    } finally {
+                      setDeleteId(null); // Close dialog
+                    }
+                  }
+                }}
+              >
+                Delete
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </ProtectedRoute>
   );

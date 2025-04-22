@@ -13,7 +13,7 @@ import {
   Search,
   Settings2,
   Sparkles,
-  Trash2,
+  // Trash2,
   ClipboardPlus,
   FileClock
 } from "lucide-react"
@@ -21,7 +21,7 @@ import {
 import { NavFavorites } from "@/components/nav-favorites"
 import { NavMain } from "@/components/nav-main"
 import { NavSecondary } from "@/components/nav-secondary"
-import { NavWorkspaces } from "@/components/nav-workspaces"
+// import { NavWorkspaces } from "@/components/nav-workspaces"
 import { TeamSwitcher } from "@/components/team-switcher"
 import {
   Sidebar,
@@ -29,7 +29,7 @@ import {
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar"
-import { Plus } from "lucide-react"
+// import { Plus } from "lucide-react"
 
 // This is sample data.
 const data = {
@@ -275,9 +275,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
 
 
-const navItems = [
-  { name: "Dashboard", href: "/foreman/dashboard" },
-  { name: "Reports", href: "/foreman/reports" },
-  { name: "TasksCreate", href: "/foreman/tasks/create" },
+// const navItems = [
+//   { name: "Dashboard", href: "/foreman/dashboard" },
+//   { name: "Reports", href: "/foreman/reports" },
+//   { name: "TasksCreate", href: "/foreman/tasks/create" },
 
-];
+// ];

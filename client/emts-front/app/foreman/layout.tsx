@@ -1,7 +1,7 @@
 // File: app/foreman/layout.tsx
 
-import Link from "next/link";
-import { cn } from "@/lib/utils";
+// import Link from "next/link";
+// import { cn } from "@/lib/utils";
 
 
 
@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 // File: app/foreman/dashboard/page.tsx
 
-import { TaskCard } from "@/components/TaskCard";
+// import { TaskCard } from "@/components/TaskCard";
 import ProtectedRoute from '@/components/ProtectedRoute'; 
 
 import { AppSidebar } from "@/components/app-sidebar"
