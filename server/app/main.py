@@ -14,16 +14,21 @@ from app.core.config import settings, logger
 from app.crud.user import get_user_by_email, create_user
 from app.setup import setup_first_admin
 from fastapi.encoders import jsonable_encoder
+from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 
 # Create all tables (You can also use Alembic later)
 UserBase.metadata.create_all(bind=engine)
 ProjectBase.metadata.create_all(bind=engine)
 ReportBase.metadata.create_all(bind=engine)
 
+# Initialize FastAPI app
 app = FastAPI(
     title="EMTS System",
     debug=settings.DEBUG
 )
+
+# ✅ Add HTTPS Redirection Middleware
+app.add_middleware(HTTPSRedirectMiddleware)
 
 # ✅ CORS Configuration
 app.add_middleware(
@@ -39,7 +44,7 @@ app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(user.router, prefix="/api/v1/user", tags=["users"])
 app.include_router(daily_report.router, prefix="/api/v1", tags=["Daily Report"])
 
-# ✅ Request Logger
+# ✅ Request Logger Middleware
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     logger.info(f"Incoming request: {request.method} {request.url}")
