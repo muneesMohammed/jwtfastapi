@@ -19453,3 +19453,5 @@ FROM users
 WHERE users.email = %(email_1)s 
  LIMIT %(param_1)s
 2025-04-23 20:48:37,098 - sqlalchemy.engine.Engine - INFO - [generated in 0.00080s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:50:00,385 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-04-23 20:50:00,404 - app.core.config - INFO - Completed: GET http://127.0.0.1:8000/docs - Status 307

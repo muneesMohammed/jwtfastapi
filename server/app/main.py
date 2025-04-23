@@ -28,7 +28,7 @@ app = FastAPI(
 )
 
 # ✅ Force HTTPS (Optional - use only in production or behind reverse proxy)
-app.add_middleware(HTTPSRedirectMiddleware)
+# app.add_middleware(HTTPSRedirectMiddleware)
 
 # ✅ CORS configuration
 app.add_middleware(
