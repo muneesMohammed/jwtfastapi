@@ -28,7 +28,7 @@ app = FastAPI(
 # ✅ CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://jwtfastapi.vercel.app", "http://localhost:3000", "http://192.168.1.4:3000"],
+    allow_origins=["https://jwtfastapi.vercel.app", "http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
