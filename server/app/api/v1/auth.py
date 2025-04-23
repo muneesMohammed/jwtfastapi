@@ -11,7 +11,15 @@ from app.schemas.token import Token
 from app.schemas.user import UserInDB, UserRegister
 from app.models.user import Role
 
-router = APIRouter()
+
+
+router = APIRouter(
+    prefix="/auth",
+    tags=["Auth"]
+)
+
+# Your login and register routes here...
+
 
 @router.post("/login", response_model=Token)
 def login(

@@ -18945,3 +18945,511 @@ WHERE daily_reports.id = %(id_1)s
 2025-04-21 00:03:12,863 - sqlalchemy.engine.Engine - INFO - [cached since 0.3037s ago] {'id_1': 14, 'param_1': 1}
 2025-04-21 00:03:12,879 - sqlalchemy.engine.Engine - INFO - ROLLBACK
 2025-04-21 00:03:12,888 - app.core.config - INFO - Request completed: GET http://localhost:8000/api/v1/daily-report/14 - Status: 200
+2025-04-23 17:55:28,061 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 17:55:28,093 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 17:55:29,991 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 17:55:29,995 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,007 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 17:55:30,011 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,015 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 17:55:30,015 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,019 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 17:55:30,019 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 17:55:30,019 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,218 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 17:55:30,218 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,224 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 17:55:30,224 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,232 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 17:55:30,232 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,238 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 17:55:30,238 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,244 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 17:55:30,244 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,249 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 17:55:30,251 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 17:55:30,253 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 17:55:30,253 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,253 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 17:55:30,253 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 17:55:30,262 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,275 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 17:55:30,278 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 17:55:30,278 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 17:55:30,278 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,282 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 17:55:30,282 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,286 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 17:55:30,286 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,286 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 17:55:30,286 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,294 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 17:55:30,296 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,298 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 17:55:30,298 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 17:55:30,300 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 17:55:30,365 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 17:55:30,371 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 17:55:30,373 - sqlalchemy.engine.Engine - INFO - [generated in 0.00201s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 17:55:44,734 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-04-23 17:55:44,737 - app.core.config - INFO - Completed: GET http://127.0.0.1:8000/ - Status 307
+2025-04-23 20:20:13,728 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:20:13,800 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:20:28,504 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:20:28,517 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:20:32,373 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:20:32,415 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:20:39,445 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:20:39,459 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:21:13,889 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:21:13,900 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:21:43,823 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:21:43,836 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:21:48,003 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:21:48,017 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:22:00,078 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:22:00,094 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:24:41,032 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:24:41,048 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:24:47,566 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:24:48,067 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:24:48,067 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:24:48,067 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:24:48,086 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:25:04,646 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:25:05,551 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:25:05,554 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:25:05,556 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:25:05,589 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:25:37,710 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:25:38,212 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:25:38,212 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:25:38,212 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:25:38,228 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:26:14,643 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:26:15,991 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:26:15,991 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:26:15,991 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:26:16,019 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:26:16,971 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:26:16,973 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:16,989 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:26:16,989 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:16,994 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:26:16,996 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,000 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:26:17,000 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:26:17,002 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,176 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:26:17,182 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,189 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:26:17,191 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,199 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:26:17,201 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,205 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:26:17,208 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,217 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:26:17,217 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,224 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:26:17,230 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:26:17,230 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:26:17,230 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,230 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:26:17,230 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,239 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:26:17,243 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,249 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:26:17,251 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,255 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:26:17,258 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,261 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:26:17,263 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,269 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:26:17,272 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:26:17,278 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:26:17,280 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,286 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:26:17,288 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,297 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:26:17,299 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,303 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:26:17,305 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,313 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:26:17,313 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,319 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:26:17,321 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:26:17,326 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:26:17,424 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:26:17,434 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:26:17,434 - sqlalchemy.engine.Engine - INFO - [generated in 0.00114s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:29:30,460 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:29:31,214 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:29:31,215 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:29:31,215 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:29:31,240 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:29:31,482 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:29:31,483 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,493 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:29:31,494 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,495 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:29:31,495 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,498 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:29:31,499 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:29:31,499 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,593 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:29:31,595 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,599 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:29:31,599 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,604 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:29:31,606 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,611 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:29:31,611 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,615 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:29:31,617 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,624 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:29:31,628 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:29:31,629 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:29:31,630 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,633 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:29:31,638 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,645 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:29:31,646 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,650 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:29:31,653 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,660 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:29:31,664 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,673 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:29:31,676 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,691 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:29:31,697 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:29:31,706 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:29:31,706 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,711 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:29:31,714 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,723 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:29:31,724 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,730 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:29:31,734 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,741 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:29:31,742 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,746 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:29:31,749 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:29:31,755 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:29:31,825 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:29:31,832 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:29:31,834 - sqlalchemy.engine.Engine - INFO - [generated in 0.00148s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:29:52,133 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-04-23 20:29:52,156 - app.core.config - INFO - Completed: GET http://localhost:8000/docs - Status 307
+2025-04-23 20:34:00,749 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:34:01,607 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:34:01,608 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:34:01,608 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:34:01,629 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:34:01,866 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:34:01,866 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:01,883 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,945 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:01,945 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,945 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:01,945 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:01,960 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,976 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:01,992 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,992 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:01,992 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:01,992 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:01,992 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:01,999 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:01,999 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:02,002 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:02,002 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:02,004 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:02,004 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:02,008 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:02,008 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:02,008 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:02,008 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:02,008 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:02,056 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:02,056 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:34:02,056 - sqlalchemy.engine.Engine - INFO - [generated in 0.00093s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:34:21,285 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:34:22,507 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:34:22,508 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:34:22,510 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:34:22,543 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:34:22,748 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:34:22,748 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,748 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:34:22,754 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,754 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:34:22,754 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,757 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:22,759 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:22,759 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,766 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:22,768 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,771 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:22,771 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,777 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:22,777 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,781 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:22,781 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,784 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:22,786 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,791 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:22,793 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:22,793 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:22,795 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,799 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:22,801 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,805 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:22,807 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,811 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:22,811 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,817 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:22,817 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,821 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:22,823 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,827 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:22,830 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:22,830 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:34:22,830 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,834 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:34:22,836 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,840 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:34:22,840 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,847 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:34:22,847 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,855 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:34:22,857 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,861 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:34:22,863 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:34:22,866 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:34:22,968 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:34:22,981 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:34:22,982 - sqlalchemy.engine.Engine - INFO - [generated in 0.00104s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:37:10,702 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:37:11,788 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:37:11,790 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:37:11,790 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:37:11,819 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:37:12,022 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:37:12,022 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,028 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:37:12,028 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,033 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:37:12,033 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,037 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:37:12,037 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:37:12,039 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,117 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:37:12,117 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,124 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:37:12,126 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,126 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:37:12,126 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,133 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:37:12,133 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,137 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:37:12,137 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,143 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:37:12,143 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:37:12,143 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:37:12,147 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,149 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:37:12,149 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,155 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:37:12,155 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,163 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:37:12,163 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,165 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:37:12,165 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,173 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:37:12,173 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,177 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:37:12,179 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:37:12,179 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:37:12,181 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,185 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:37:12,185 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,189 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:37:12,189 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,193 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:37:12,195 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,198 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:37:12,198 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,204 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:37:12,204 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:37:12,208 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:37:12,280 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:37:12,302 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:37:12,306 - sqlalchemy.engine.Engine - INFO - [generated in 0.00351s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:48:02,952 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:48:03,916 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:48:03,917 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:48:03,917 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:48:03,942 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:48:04,225 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:48:04,225 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,231 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:48:04,231 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,233 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:48:04,233 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,235 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:04,236 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:04,236 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,317 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:04,317 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,321 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:04,322 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,329 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:04,329 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,333 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:04,334 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,337 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:04,338 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,343 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:04,347 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:04,348 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:04,348 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,352 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:04,352 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,355 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:04,356 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,359 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:04,362 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,366 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:04,367 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,370 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:04,371 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,374 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:04,377 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:04,378 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:04,379 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,383 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:04,383 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,387 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:04,387 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,391 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:04,391 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,396 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:04,397 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,399 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:04,400 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:04,402 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:04,471 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:04,482 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:48:04,483 - sqlalchemy.engine.Engine - INFO - [generated in 0.00098s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-23 20:48:04,508 - app.core.config - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-04-23 20:48:04,549 - app.core.config - INFO - Completed: GET http://127.0.0.1:8000/openapi.json - Status 200
+2025-04-23 20:48:36,509 - app.core.config - DEBUG - Debug mode is enabled
+2025-04-23 20:48:36,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-04-23 20:48:36,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-04-23 20:48:36,891 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-04-23 20:48:36,907 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:37,003 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,022 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:37,024 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,024 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:37,024 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,030 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:37,030 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:37,034 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-04-23 20:48:37,050 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-04-23 20:48:37,066 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-23 20:48:37,098 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-23 20:48:37,098 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-23 20:48:37,098 - sqlalchemy.engine.Engine - INFO - [generated in 0.00080s] {'email_1': 'admin@example.com', 'param_1': 1}

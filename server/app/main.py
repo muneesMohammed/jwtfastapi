@@ -1,11 +1,12 @@
 from fastapi import FastAPI, Request, status, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 from fastapi.exceptions import RequestValidationError
+from fastapi.encoders import jsonable_encoder
+from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 from sqlalchemy.orm import Session
 import traceback
 
-from app.api.v1 import auth, user, daily_report  
 from app.db.session import engine, get_db
 from app.models.user import Base as UserBase, Role
 from app.models.project import Base as ProjectBase
@@ -13,38 +14,38 @@ from app.models.daily_report import Base as ReportBase
 from app.core.config import settings, logger
 from app.crud.user import get_user_by_email, create_user
 from app.setup import setup_first_admin
-from fastapi.encoders import jsonable_encoder
-from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
+from app.api.v1 import api_router  # Central router for all v1 routes
 
-# Create all tables (You can also use Alembic later)
+# ✅ Create all tables (Optional if you're using Alembic migrations)
 UserBase.metadata.create_all(bind=engine)
 ProjectBase.metadata.create_all(bind=engine)
 ReportBase.metadata.create_all(bind=engine)
 
-# Initialize FastAPI app
+# ✅ Initialize FastAPI app
 app = FastAPI(
     title="EMTS System",
     debug=settings.DEBUG
 )
 
-# ✅ Add HTTPS Redirection Middleware
+# ✅ Force HTTPS (Optional - use only in production or behind reverse proxy)
 app.add_middleware(HTTPSRedirectMiddleware)
 
-# ✅ CORS Configuration
+# ✅ CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://jwtfastapi.vercel.app", "http://localhost:3000"],
+    allow_origins=[
+        "https://jwtfastapi.vercel.app",
+        "http://localhost:3000"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ✅ Include Routers
-app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
-app.include_router(user.router, prefix="/api/v1/user", tags=["users"])
-app.include_router(daily_report.router, prefix="/api/v1", tags=["Daily Report"])
+# ✅ Include all versioned API routers
+app.include_router(api_router, prefix="/api/v1")
 
-# ✅ Request Logger Middleware
+# ✅ Log each request
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     logger.info(f"Incoming request: {request.method} {request.url}")
@@ -57,7 +58,7 @@ async def log_requests(request: Request, call_next):
         logger.error(traceback.format_exc())
         raise
 
-# ✅ Validation Exception Handler
+# ✅ Handle validation errors globally
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     logger.error(f"Validation error: {str(exc)}")
@@ -67,7 +68,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": exc.errors(), "body": jsonable_encoder(body_content)},
     )
 
-# ✅ Admin Setup Route
+# ✅ Admin setup endpoint (manual trigger)
 @app.post("/setup-admin")
 async def setup_admin(db: Session = Depends(get_db)):
     admin = get_user_by_email(db, settings.FIRST_SUPERUSER_EMAIL)
@@ -84,13 +85,12 @@ async def setup_admin(db: Session = Depends(get_db)):
     create_user(db, admin_data)
     return {"message": "Admin user created successfully"}
 
-# ✅ Root Endpoint
+# ✅ Root redirect to docs or welcome message
 @app.get("/")
-async def read_root(request: Request):
-    logger.debug("Root endpoint accessed")
-    return {"message": "Auth System API"}
+async def root():
+    return RedirectResponse(url="/docs")
 
-# ✅ On Startup Hook
+# ✅ Auto-setup first admin on startup
 @app.on_event("startup")
 def on_startup():
     db = next(get_db())

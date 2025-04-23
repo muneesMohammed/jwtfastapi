@@ -22,6 +22,7 @@ from app.crud.daily_report import (
     update_daily_report,
 )
 
+
 router = APIRouter(
     prefix="/daily-report",
     tags=["Daily Report"],

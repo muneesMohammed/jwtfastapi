@@ -13,7 +13,10 @@ from app.schemas.user import UserCreate, UserInDB, UserUpdate
 from app.core.config import logger
 from app.models.user import Role
 
-router = APIRouter()
+router = APIRouter(
+    prefix="/users",
+    tags=["Users"]
+)
 
 @router.get("/", response_model=List[UserInDB])
 async def read_users(

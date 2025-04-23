@@ -75,7 +75,7 @@ export default function DailyLogForm() {
       setIsSubmitting(false);
     }
   };
-  console.log('NEXT_PUBLIC_API_URL', process.env.NEXT_PUBLIC_API_URL);
+
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-10">
       <h2 className="text-2xl font-bold">Daily Gang Productivity Report</h2>
