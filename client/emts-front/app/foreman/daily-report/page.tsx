@@ -45,9 +45,10 @@ export default function DailyLogForm() {
         remarks: a.remarks
       }))
     };
+    console.log('NEXT_PUBLIC_API_URL', process.env.NEXT_PUBLIC_API_URL);
 
     try {
-      const response = await fetch(`https://jwtfastapi-production.up.railway.app/api/v1/daily-report`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/daily-report`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
