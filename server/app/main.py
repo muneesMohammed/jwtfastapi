@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request, status, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware  # ✅ NEW
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 from sqlalchemy.orm import Session
@@ -25,21 +26,24 @@ app = FastAPI(
     debug=settings.DEBUG
 )
 
-# CORS
+# ✅ Force HTTP to HTTPS redirect
+app.add_middleware(HTTPSRedirectMiddleware)
+
+# ✅ CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[ "https://jwtfastapi.vercel.app","http://localhost:3000", "http://192.168.1.4:3000"],
+    allow_origins=["https://jwtfastapi.vercel.app", "http://localhost:3000", "http://192.168.1.4:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Routers
+# ✅ Routers
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(user.router, prefix="/api/v1/user", tags=["users"])
-app.include_router(daily_report.router, prefix="/api/v1", tags=["Daily Report"])  # 👈 INCLUDE Daily Report route
+app.include_router(daily_report.router, prefix="/api/v1", tags=["Daily Report"])
 
-# Middleware
+# ✅ Logging middleware
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     logger.info(f"Incoming request: {request.method} {request.url}")
@@ -52,21 +56,19 @@ async def log_requests(request: Request, call_next):
         logger.error(traceback.format_exc())
         raise
 
-# Validation handler
+# ✅ Validation error handler
 from fastapi.encoders import jsonable_encoder
 
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     logger.error(f"Validation error: {str(exc)}")
-
     body_content = await request.form() if "multipart/form-data" in request.headers.get("content-type", "") else exc.body
-
     return JSONResponse(
         status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
         content={"detail": exc.errors(), "body": jsonable_encoder(body_content)},
     )
 
-# Admin setup
+# ✅ Admin setup route
 @app.post("/setup-admin")
 async def setup_admin(db: Session = Depends(get_db)):
     admin = get_user_by_email(db, settings.FIRST_SUPERUSER_EMAIL)
