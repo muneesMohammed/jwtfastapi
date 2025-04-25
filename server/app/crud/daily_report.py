@@ -8,6 +8,7 @@ from app.models.user import User
 
 from sqlalchemy.exc import IntegrityError
 from fastapi import HTTPException
+from sqlalchemy.orm import joinedload
 
 
 def create_daily_report(db: Session, report_in: DailyReportCreate, current_user: User) -> DailyReport:
@@ -60,8 +61,21 @@ def get_all_reports_service(
     return query.order_by(DailyReport.date.desc()).offset(offset).limit(limit).all()
 
 
+
+
+
 def get_daily_report_by_id(db: Session, report_id: int) -> Optional[DailyReport]:
-    return db.query(DailyReport).filter(DailyReport.id == report_id).first()
+    return (
+        db.query(DailyReport)
+        .options(
+            joinedload(DailyReport.manpower),
+            joinedload(DailyReport.machinery),
+            joinedload(DailyReport.activities),
+        )
+        .filter(DailyReport.id == report_id)
+        .first()
+    )
+
 
 
 def delete_daily_report(db: Session, report_id: int) -> bool:
