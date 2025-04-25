@@ -46,6 +46,7 @@ class ManpowerUtilized(Base):
         return f"<ManpowerUtilized id={self.id} worker={self.name} hours={self.total_hours}>"
 
 
+
 class MachineryUtilized(Base):
     __tablename__ = "machinery_utilized"
 
@@ -53,6 +54,7 @@ class MachineryUtilized(Base):
     report_id = Column(Integer, ForeignKey("daily_reports.id"), index=True)
     machinery_name = Column(String(255))
     hours_used = Column(Float)
+    remarks= Column(String(255))
 
     report = relationship("DailyReport", back_populates="machinery")
 
@@ -67,7 +69,8 @@ class ActivitiesCarriedOut(Base):
     report_id = Column(Integer, ForeignKey("daily_reports.id"), index=True)
     activity_name = Column(String(255))
     unit = Column(String(255))
-
+    quantity= Column(String(255))
+    remarks = Column(String(255))
     report = relationship("DailyReport", back_populates="activities")
 
     def __repr__(self):

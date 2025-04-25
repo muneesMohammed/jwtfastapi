@@ -12,10 +12,15 @@ class ManpowerUtilizedCreate(BaseModel):
 class MachineryUtilizedCreate(BaseModel):
     machinery_name: str
     hours_used: float
+    remarks: Optional[str] = None  
+
+
 
 class ActivitiesCarriedOutCreate(BaseModel):
     activity_name: str
-    unit: str
+    unit: Optional[str] = None
+    quantity: Optional[str] = None   
+    remarks: Optional[str] = None
 
 class DailyReportCreate(BaseModel):
     date: date
