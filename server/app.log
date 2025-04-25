@@ -23420,3 +23420,184 @@ WHERE daily_reports.user_id = %(user_id_1)s ORDER BY daily_reports.date DESC
 2025-04-25 16:32:48,436 - sqlalchemy.engine.Engine - INFO - [cached since 62.07s ago] {'user_id_1': 1, 'param_1': 0, 'param_2': 10}
 2025-04-25 16:32:48,451 - sqlalchemy.engine.Engine - INFO - ROLLBACK
 2025-04-25 16:32:48,470 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10 - Status 200
+2025-04-25 17:04:59,106 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:04:59,198 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/daily-report/all?page=1&limit=10 - Status 200
+2025-04-25 17:04:59,290 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:04:59,384 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:04:59,394 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer null', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:04:59,410 - app.core.config - DEBUG - Authenticating user with token: null...
+2025-04-25 17:04:59,422 - app.core.config - DEBUG - Attempting to decode token: null...
+2025-04-25 17:04:59,444 - app.core.config - ERROR - Token decoding failed: Not enough segments
+2025-04-25 17:04:59,446 - app.core.config - WARNING - Token decoding returned None
+2025-04-25 17:04:59,485 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10 - Status 401
+2025-04-25 17:05:15,950 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/daily-report
+2025-04-25 17:05:15,998 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/daily-report - Status 200
+2025-04-25 17:05:16,029 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/daily-report
+2025-04-25 17:05:16,041 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/daily-report - Status 307
+2025-04-25 17:05:16,069 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/daily-report/
+2025-04-25 17:05:16,071 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/daily-report/ - Status 200
+2025-04-25 17:05:16,093 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/daily-report/
+2025-04-25 17:05:16,130 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/daily-report/
+2025-04-25 17:05:16,134 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '294', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NTU4MTgwNH0.gk87DGtiiZ5P7l5TAHx13nhbJ-z0MCsvfJXpHZ-ewyk', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:05:16,140 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-04-25 17:05:16,140 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-04-25 17:05:16,190 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1745581804}
+2025-04-25 17:05:16,211 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1745581804 role='admin'
+2025-04-25 17:05:16,284 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:16,304 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:16,313 - sqlalchemy.engine.Engine - INFO - [cached since 2143s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-25 17:05:16,456 - app.core.config - INFO - User authenticated: admin@example.com
+2025-04-25 17:05:16,476 - sqlalchemy.engine.Engine - INFO - SELECT projects.id AS projects_id, projects.name AS projects_name 
+FROM projects 
+WHERE projects.id = %(id_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:16,484 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] {'id_1': 1, 'param_1': 1}
+2025-04-25 17:05:16,534 - sqlalchemy.engine.Engine - INFO - INSERT INTO daily_reports (date, project_id, user_id, remarks) VALUES (%(date)s, %(project_id)s, %(user_id)s, %(remarks)s)
+2025-04-25 17:05:16,541 - sqlalchemy.engine.Engine - INFO - [generated in 0.00654s] {'date': datetime.date(2025, 4, 25), 'project_id': 1, 'user_id': 1, 'remarks': None}
+2025-04-25 17:05:16,588 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-25 17:05:16,624 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:16,670 - sqlalchemy.engine.Engine - INFO - SELECT daily_reports.id, daily_reports.date, daily_reports.project_id, daily_reports.user_id, daily_reports.remarks, daily_reports.created_at, daily_reports.modified_at 
+FROM daily_reports 
+WHERE daily_reports.id = %(pk_1)s
+2025-04-25 17:05:16,674 - sqlalchemy.engine.Engine - INFO - [generated in 0.00598s] {'pk_1': 24}
+2025-04-25 17:05:16,756 - sqlalchemy.engine.Engine - INFO - INSERT INTO activities_carried_out (report_id, activity_name, unit, quantity, remarks) VALUES (%(report_id)s, %(activity_name)s, %(unit)s, %(quantity)s, %(remarks)s)
+2025-04-25 17:05:16,794 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] {'report_id': 24, 'activity_name': 'kjkj', 'unit': '4', 'quantity': '56', 'remarks': ''}
+2025-04-25 17:05:16,811 - sqlalchemy.engine.Engine - INFO - INSERT INTO machinery_utilized (report_id, machinery_name, hours_used, remarks) VALUES (%(report_id)s, %(machinery_name)s, %(hours_used)s, %(remarks)s)
+2025-04-25 17:05:16,821 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] {'report_id': 24, 'machinery_name': 'mmmm', 'hours_used': 85.0, 'remarks': 'm'}
+2025-04-25 17:05:16,836 - sqlalchemy.engine.Engine - INFO - INSERT INTO manpower_utilized (report_id, worker_id, name, category, total_hours, skilled) VALUES (%(report_id)s, %(worker_id)s, %(name)s, %(category)s, %(total_hours)s, %(skilled)s)
+2025-04-25 17:05:16,848 - sqlalchemy.engine.Engine - INFO - [cached since 1984s ago] {'report_id': 24, 'worker_id': '2', 'name': 'mohammed munais ck', 'category': 'klk', 'total_hours': 5.0, 'skilled': 0}
+2025-04-25 17:05:16,865 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-25 17:05:16,890 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/daily-report/ - Status 201
+2025-04-25 17:05:18,997 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:05:19,009 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:05:19,027 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NTU4MTgwNH0.gk87DGtiiZ5P7l5TAHx13nhbJ-z0MCsvfJXpHZ-ewyk', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:05:19,038 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-04-25 17:05:19,040 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-04-25 17:05:19,051 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1745581804}
+2025-04-25 17:05:19,059 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1745581804 role='admin'
+2025-04-25 17:05:19,085 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:19,089 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:19,098 - sqlalchemy.engine.Engine - INFO - [cached since 2145s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-25 17:05:19,112 - app.core.config - INFO - User authenticated: admin@example.com
+2025-04-25 17:05:19,169 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at 
+FROM daily_reports 
+WHERE daily_reports.user_id = %(user_id_1)s) AS anon_1
+2025-04-25 17:05:19,195 - sqlalchemy.engine.Engine - INFO - [cached since 2013s ago] {'user_id_1': 1}
+2025-04-25 17:05:19,231 - sqlalchemy.engine.Engine - INFO - SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at, users_1.id AS users_1_id, users_1.email AS users_1_email, users_1.hashed_password AS users_1_hashed_password, users_1.full_name AS users_1_full_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.`role` AS users_1_role, projects_1.id AS projects_1_id, projects_1.name AS projects_1_name 
+FROM daily_reports LEFT OUTER JOIN users AS users_1 ON users_1.id = daily_reports.user_id LEFT OUTER JOIN projects AS projects_1 ON projects_1.id = daily_reports.project_id 
+WHERE daily_reports.user_id = %(user_id_1)s ORDER BY daily_reports.date DESC 
+ LIMIT %(param_1)s, %(param_2)s
+2025-04-25 17:05:19,235 - sqlalchemy.engine.Engine - INFO - [cached since 2013s ago] {'user_id_1': 1, 'param_1': 0, 'param_2': 10}
+2025-04-25 17:05:19,273 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-25 17:05:19,281 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10 - Status 200
+2025-04-25 17:05:22,379 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:22,379 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/daily-report/22 - Status 200
+2025-04-25 17:05:22,411 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:22,417 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:22,419 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NTU4MTgwNH0.gk87DGtiiZ5P7l5TAHx13nhbJ-z0MCsvfJXpHZ-ewyk', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:05:22,419 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-04-25 17:05:22,423 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-04-25 17:05:22,428 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1745581804}
+2025-04-25 17:05:22,432 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1745581804 role='admin'
+2025-04-25 17:05:22,436 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:22,441 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:22,448 - sqlalchemy.engine.Engine - INFO - [cached since 2149s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-25 17:05:22,456 - app.core.config - INFO - User authenticated: admin@example.com
+2025-04-25 17:05:22,465 - sqlalchemy.engine.Engine - INFO - SELECT anon_1.daily_reports_id AS anon_1_daily_reports_id, anon_1.daily_reports_date AS anon_1_daily_reports_date, anon_1.daily_reports_project_id AS anon_1_daily_reports_project_id, anon_1.daily_reports_user_id AS anon_1_daily_reports_user_id, anon_1.daily_reports_remarks AS anon_1_daily_reports_remarks, anon_1.daily_reports_created_at AS anon_1_daily_reports_created_at, anon_1.daily_reports_modified_at AS anon_1_daily_reports_modified_at, manpower_utilized_1.id AS manpower_utilized_1_id, manpower_utilized_1.report_id AS manpower_utilized_1_report_id, manpower_utilized_1.worker_id AS manpower_utilized_1_worker_id, manpower_utilized_1.name AS manpower_utilized_1_name, manpower_utilized_1.category AS manpower_utilized_1_category, manpower_utilized_1.total_hours AS manpower_utilized_1_total_hours, manpower_utilized_1.skilled AS manpower_utilized_1_skilled, machinery_utilized_1.id AS machinery_utilized_1_id, machinery_utilized_1.report_id AS machinery_utilized_1_report_id, machinery_utilized_1.machinery_name AS machinery_utilized_1_machinery_name, machinery_utilized_1.hours_used AS machinery_utilized_1_hours_used, machinery_utilized_1.remarks AS machinery_utilized_1_remarks, activities_carried_out_1.id AS activities_carried_out_1_id, activities_carried_out_1.report_id AS activities_carried_out_1_report_id, activities_carried_out_1.activity_name AS activities_carried_out_1_activity_name, activities_carried_out_1.unit AS activities_carried_out_1_unit, activities_carried_out_1.quantity AS activities_carried_out_1_quantity, activities_carried_out_1.remarks AS activities_carried_out_1_remarks 
+FROM (SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at 
+FROM daily_reports 
+WHERE daily_reports.id = %(id_1)s 
+ LIMIT %(param_1)s) AS anon_1 LEFT OUTER JOIN manpower_utilized AS manpower_utilized_1 ON anon_1.daily_reports_id = manpower_utilized_1.report_id LEFT OUTER JOIN machinery_utilized AS machinery_utilized_1 ON anon_1.daily_reports_id = machinery_utilized_1.report_id LEFT OUTER JOIN activities_carried_out AS activities_carried_out_1 ON anon_1.daily_reports_id = activities_carried_out_1.report_id
+2025-04-25 17:05:22,467 - sqlalchemy.engine.Engine - INFO - [cached since 2006s ago] {'id_1': 22, 'param_1': 1}
+2025-04-25 17:05:22,487 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-25 17:05:22,491 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/daily-report/22 - Status 200
+2025-04-25 17:05:37,116 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:37,126 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/daily-report/22 - Status 200
+2025-04-25 17:05:37,179 - app.core.config - INFO - Incoming request: PUT http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:37,187 - app.core.config - INFO - Incoming request: PUT http://localhost:8000/api/v1/daily-report/22
+2025-04-25 17:05:37,189 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'content-length': '308', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NTU4MTgwNH0.gk87DGtiiZ5P7l5TAHx13nhbJ-z0MCsvfJXpHZ-ewyk', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:05:37,189 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-04-25 17:05:37,191 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-04-25 17:05:37,193 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1745581804}
+2025-04-25 17:05:37,195 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1745581804 role='admin'
+2025-04-25 17:05:37,199 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:37,201 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:37,203 - sqlalchemy.engine.Engine - INFO - [cached since 2164s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-25 17:05:37,207 - app.core.config - INFO - User authenticated: admin@example.com
+2025-04-25 17:05:37,212 - sqlalchemy.engine.Engine - INFO - SELECT anon_1.daily_reports_id AS anon_1_daily_reports_id, anon_1.daily_reports_date AS anon_1_daily_reports_date, anon_1.daily_reports_project_id AS anon_1_daily_reports_project_id, anon_1.daily_reports_user_id AS anon_1_daily_reports_user_id, anon_1.daily_reports_remarks AS anon_1_daily_reports_remarks, anon_1.daily_reports_created_at AS anon_1_daily_reports_created_at, anon_1.daily_reports_modified_at AS anon_1_daily_reports_modified_at, manpower_utilized_1.id AS manpower_utilized_1_id, manpower_utilized_1.report_id AS manpower_utilized_1_report_id, manpower_utilized_1.worker_id AS manpower_utilized_1_worker_id, manpower_utilized_1.name AS manpower_utilized_1_name, manpower_utilized_1.category AS manpower_utilized_1_category, manpower_utilized_1.total_hours AS manpower_utilized_1_total_hours, manpower_utilized_1.skilled AS manpower_utilized_1_skilled, machinery_utilized_1.id AS machinery_utilized_1_id, machinery_utilized_1.report_id AS machinery_utilized_1_report_id, machinery_utilized_1.machinery_name AS machinery_utilized_1_machinery_name, machinery_utilized_1.hours_used AS machinery_utilized_1_hours_used, machinery_utilized_1.remarks AS machinery_utilized_1_remarks, activities_carried_out_1.id AS activities_carried_out_1_id, activities_carried_out_1.report_id AS activities_carried_out_1_report_id, activities_carried_out_1.activity_name AS activities_carried_out_1_activity_name, activities_carried_out_1.unit AS activities_carried_out_1_unit, activities_carried_out_1.quantity AS activities_carried_out_1_quantity, activities_carried_out_1.remarks AS activities_carried_out_1_remarks 
+FROM (SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at 
+FROM daily_reports 
+WHERE daily_reports.id = %(id_1)s 
+ LIMIT %(param_1)s) AS anon_1 LEFT OUTER JOIN manpower_utilized AS manpower_utilized_1 ON anon_1.daily_reports_id = manpower_utilized_1.report_id LEFT OUTER JOIN machinery_utilized AS machinery_utilized_1 ON anon_1.daily_reports_id = machinery_utilized_1.report_id LEFT OUTER JOIN activities_carried_out AS activities_carried_out_1 ON anon_1.daily_reports_id = activities_carried_out_1.report_id
+2025-04-25 17:05:37,218 - sqlalchemy.engine.Engine - INFO - [cached since 2020s ago] {'id_1': 22, 'param_1': 1}
+2025-04-25 17:05:37,251 - sqlalchemy.engine.Engine - INFO - SELECT projects.id AS projects_id, projects.name AS projects_name 
+FROM projects 
+WHERE projects.id = %(id_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:37,253 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'id_1': 1, 'param_1': 1}
+2025-04-25 17:05:37,255 - sqlalchemy.engine.Engine - INFO - SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at 
+FROM daily_reports 
+WHERE daily_reports.id = %(id_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:37,258 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'id_1': 22, 'param_1': 1}
+2025-04-25 17:05:37,264 - sqlalchemy.engine.Engine - INFO - DELETE FROM manpower_utilized WHERE manpower_utilized.report_id = %(report_id_1)s
+2025-04-25 17:05:37,266 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id_1': 22}
+2025-04-25 17:05:37,277 - sqlalchemy.engine.Engine - INFO - DELETE FROM machinery_utilized WHERE machinery_utilized.report_id = %(report_id_1)s
+2025-04-25 17:05:37,281 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id_1': 22}
+2025-04-25 17:05:37,285 - sqlalchemy.engine.Engine - INFO - DELETE FROM activities_carried_out WHERE activities_carried_out.report_id = %(report_id_1)s
+2025-04-25 17:05:37,287 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id_1': 22}
+2025-04-25 17:05:37,341 - sqlalchemy.engine.Engine - INFO - UPDATE daily_reports SET remarks=%(remarks)s, modified_at=now() WHERE daily_reports.id = %(daily_reports_id)s
+2025-04-25 17:05:37,343 - sqlalchemy.engine.Engine - INFO - [generated in 0.00097s] {'remarks': None, 'daily_reports_id': 22}
+2025-04-25 17:05:37,354 - sqlalchemy.engine.Engine - INFO - INSERT INTO activities_carried_out (report_id, activity_name, unit, quantity, remarks) VALUES (%(report_id)s, %(activity_name)s, %(unit)s, %(quantity)s, %(remarks)s)
+2025-04-25 17:05:37,354 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id': 22, 'activity_name': 'string', 'unit': 'string', 'quantity': 'string', 'remarks': 'string'}
+2025-04-25 17:05:37,358 - sqlalchemy.engine.Engine - INFO - INSERT INTO machinery_utilized (report_id, machinery_name, hours_used, remarks) VALUES (%(report_id)s, %(machinery_name)s, %(hours_used)s, %(remarks)s)
+2025-04-25 17:05:37,358 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id': 22, 'machinery_name': 'string', 'hours_used': 0.0, 'remarks': 'string'}
+2025-04-25 17:05:37,360 - sqlalchemy.engine.Engine - INFO - INSERT INTO manpower_utilized (report_id, worker_id, name, category, total_hours, skilled) VALUES (%(report_id)s, %(worker_id)s, %(name)s, %(category)s, %(total_hours)s, %(skilled)s)
+2025-04-25 17:05:37,364 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'report_id': 22, 'worker_id': 'lm', 'name': 'string', 'category': 'string', 'total_hours': 0.0, 'skilled': 1}
+2025-04-25 17:05:37,366 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-04-25 17:05:37,375 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:37,375 - sqlalchemy.engine.Engine - INFO - SELECT daily_reports.id, daily_reports.date, daily_reports.project_id, daily_reports.user_id, daily_reports.remarks, daily_reports.created_at, daily_reports.modified_at, manpower_utilized_1.id AS id_1, manpower_utilized_1.report_id, manpower_utilized_1.worker_id, manpower_utilized_1.name, manpower_utilized_1.category, manpower_utilized_1.total_hours, manpower_utilized_1.skilled, machinery_utilized_1.id AS id_2, machinery_utilized_1.report_id AS report_id_1, machinery_utilized_1.machinery_name, machinery_utilized_1.hours_used, machinery_utilized_1.remarks AS remarks_1, activities_carried_out_1.id AS id_3, activities_carried_out_1.report_id AS report_id_2, activities_carried_out_1.activity_name, activities_carried_out_1.unit, activities_carried_out_1.quantity, activities_carried_out_1.remarks AS remarks_2 
+FROM daily_reports LEFT OUTER JOIN manpower_utilized AS manpower_utilized_1 ON daily_reports.id = manpower_utilized_1.report_id LEFT OUTER JOIN machinery_utilized AS machinery_utilized_1 ON daily_reports.id = machinery_utilized_1.report_id LEFT OUTER JOIN activities_carried_out AS activities_carried_out_1 ON daily_reports.id = activities_carried_out_1.report_id 
+WHERE daily_reports.id = %(pk_1)s
+2025-04-25 17:05:37,377 - sqlalchemy.engine.Engine - INFO - [cached since 2004s ago] {'pk_1': 22}
+2025-04-25 17:05:37,387 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-25 17:05:37,389 - app.core.config - INFO - Completed: PUT http://localhost:8000/api/v1/daily-report/22 - Status 200
+2025-04-25 17:05:38,999 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:05:39,003 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10
+2025-04-25 17:05:39,005 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NTU4MTgwNH0.gk87DGtiiZ5P7l5TAHx13nhbJ-z0MCsvfJXpHZ-ewyk', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0', 'sec-ch-ua': '"Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-04-25 17:05:39,007 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-04-25 17:05:39,009 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-04-25 17:05:39,020 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1745581804}
+2025-04-25 17:05:39,022 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1745581804 role='admin'
+2025-04-25 17:05:39,024 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-04-25 17:05:39,025 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.hashed_password AS users_hashed_password, users.full_name AS users_full_name, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.`role` AS users_role 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-04-25 17:05:39,025 - sqlalchemy.engine.Engine - INFO - [cached since 2165s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-04-25 17:05:39,032 - app.core.config - INFO - User authenticated: admin@example.com
+2025-04-25 17:05:39,040 - sqlalchemy.engine.Engine - INFO - SELECT count(*) AS count_1 
+FROM (SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at 
+FROM daily_reports 
+WHERE daily_reports.user_id = %(user_id_1)s) AS anon_1
+2025-04-25 17:05:39,042 - sqlalchemy.engine.Engine - INFO - [cached since 2033s ago] {'user_id_1': 1}
+2025-04-25 17:05:39,046 - sqlalchemy.engine.Engine - INFO - SELECT daily_reports.id AS daily_reports_id, daily_reports.date AS daily_reports_date, daily_reports.project_id AS daily_reports_project_id, daily_reports.user_id AS daily_reports_user_id, daily_reports.remarks AS daily_reports_remarks, daily_reports.created_at AS daily_reports_created_at, daily_reports.modified_at AS daily_reports_modified_at, users_1.id AS users_1_id, users_1.email AS users_1_email, users_1.hashed_password AS users_1_hashed_password, users_1.full_name AS users_1_full_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.`role` AS users_1_role, projects_1.id AS projects_1_id, projects_1.name AS projects_1_name 
+FROM daily_reports LEFT OUTER JOIN users AS users_1 ON users_1.id = daily_reports.user_id LEFT OUTER JOIN projects AS projects_1 ON projects_1.id = daily_reports.project_id 
+WHERE daily_reports.user_id = %(user_id_1)s ORDER BY daily_reports.date DESC 
+ LIMIT %(param_1)s, %(param_2)s
+2025-04-25 17:05:39,049 - sqlalchemy.engine.Engine - INFO - [cached since 2033s ago] {'user_id_1': 1, 'param_1': 0, 'param_2': 10}
+2025-04-25 17:05:39,058 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-04-25 17:05:39,062 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/daily-report/all?page=1&limit=10 - Status 200

@@ -113,8 +113,12 @@ export default function EditDailyReportPage() {
           quantity: a.quantity,
           remarks: a.remarks,
         })));
-      } catch (error: any) {
-        toast.error(`❌ Error fetching report: ${error.message}`);
+      } catch (error) {
+        if (error instanceof Error) {
+          toast.error(`❌ Error fetching report: ${error.message}`);
+        } else {
+          toast.error('❌ Error fetching report.');
+        }
       } finally {
         setIsLoading(false);
       }
@@ -123,24 +127,26 @@ export default function EditDailyReportPage() {
     fetchReport();
   }, [id, router]);
 
-  const handleManpowerChange = (index: number, field: keyof ManpowerEntry, value: any) => {
+  const handleManpowerChange = <K extends keyof ManpowerEntry>(index: number, field: K, value: ManpowerEntry[K]) => {
     const updated = [...manpower];
     updated[index][field] = value;
     setManpower(updated);
   };
+  
 
-  const handleMachineryChange = (index: number, field: keyof MachineryEntry, value: any) => {
+  const handleMachineryChange = <K extends keyof MachineryEntry>(index: number, field: K, value: MachineryEntry[K]) => {
     const updated = [...machinery];
     updated[index][field] = value;
     setMachinery(updated);
   };
+  
 
-  const handleActivityChange = (index: number, field: keyof ActivityEntry, value: any) => {
+  const handleActivityChange = <K extends keyof ActivityEntry>(index: number, field: K, value: ActivityEntry[K]) => {
     const updated = [...activities];
     updated[index][field] = value;
     setActivities(updated);
   };
-
+  
   const handleSubmit = async () => {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -191,7 +197,7 @@ export default function EditDailyReportPage() {
       } else {
         toast.error(`❌ ${result.detail || 'Something went wrong while updating.'}`);
       }
-    } catch (error) {
+    } catch {
       toast.error('🚨 Network error. Please try again.');
     } finally {
       setIsSubmitting(false);
