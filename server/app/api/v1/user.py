@@ -11,7 +11,7 @@ from app.crud.user import get_user, get_users, create_user, update_user, delete_
 from app.db.session import get_db
 from app.schemas.user import UserCreate, UserInDB, UserUpdate
 from app.core.config import logger
-from app.models.user import Role
+from app.models.role import Role
 
 router = APIRouter(
     prefix="/users",
@@ -39,6 +39,7 @@ async def read_users(
             detail="Internal server error"
         )
 
+
 @router.post("/", response_model=UserInDB, status_code=status.HTTP_201_CREATED)
 async def create_new_user(
     request: Request,
@@ -47,29 +48,36 @@ async def create_new_user(
     current_user: UserInDB = Depends(get_current_active_admin)
 ):
     """Create a new user (admin only)"""
-    logger.info(f"User creation requested by admin {current_user.email}")
-    
-    try:
-        existing_user = get_user_by_email(db, user.email)
-        if existing_user:
-            logger.warning(f"User creation failed - email exists: {user.email}")
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Email already registered"
-            )
-        
-        user_data = user.model_dump()
-        created_user = create_user(db, user_data)
-        
-        logger.info(f"User created by admin: {created_user.email} with role {created_user.role}")
-        return created_user
-    except Exception as e:
-        logger.error(f"Admin user creation failed: {str(e)}", exc_info=True)
+    logger.info(f"[ADMIN ACTION] {current_user.email} is attempting to create a user with email: {user.email}")
+
+    # Check for existing user
+    existing_user = get_user_by_email(db, user.email)
+    if existing_user:
+        logger.warning(f"[FAILED] User creation failed - Email already registered: {user.email}")
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=str(e)
+            detail="Email already registered"
+        )
+    
+    # Validate role_id
+    role = db.query(Role).filter(Role.id == user.role_id).first()
+    if not role:
+        logger.warning(f"[FAILED] Invalid role_id ({user.role_id}) provided by admin: {current_user.email}")
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid role ID"
         )
 
+    try:
+        created_user = create_user(db, user)  # You may unpack fields if create_user expects them
+        logger.info(f"[SUCCESS] Admin {current_user.email} created user {created_user.email} with role_id {user.role_id}")
+        return created_user
+    except Exception as e:
+        logger.error(f"[ERROR] User creation failed by admin {current_user.email}: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="An error occurred while creating the user"
+        )
 @router.get("/me", response_model=UserInDB)
 async def read_user_me(
     request: Request,
@@ -123,8 +131,9 @@ async def update_user_details(
                 detail="User not found"
             )
         
+
         # Prevent non-admins from promoting users to higher roles
-        if (current_user.role != Role.ADMIN and 
+        if (current_user.role.name != "admin" and 
             user_in.role is not None and 
             user_in.role != user.role):
             logger.warning(

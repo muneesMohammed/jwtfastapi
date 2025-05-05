@@ -15,6 +15,7 @@ import {
   Sparkles,
   // Trash2,
   ClipboardPlus,
+  UserRoundPlus,
   FileClock
 } from "lucide-react"
 
@@ -91,11 +92,17 @@ const data = {
         icon: Home, 
         isActive: true, },
     {
+      title: "Add User",
+      url: "/admin/users",
+      icon:  UserRoundPlus, 
+      isActive: true,
+    },
+    {
       title: "Inbox",
       url: "#",
       icon: Inbox,
       badge: "10",
-    },
+  },
   ],
   navSecondary: [
     {

@@ -42,7 +42,7 @@ export function LoginForm({ className, ...props }: React.HTMLAttributes<HTMLDivE
       formData.append("client_id", "string");
       formData.append("client_secret", "string");
 
-      const response = await fetch("https://jwtfastapi-production.up.railway.app/api/v1/auth/login", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/auth/login`, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         credentials: "include",

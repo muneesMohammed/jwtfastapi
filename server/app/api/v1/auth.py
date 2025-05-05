@@ -9,7 +9,7 @@ from app.crud.user import get_user_by_email, create_user
 from app.db.session import get_db
 from app.schemas.token import Token
 from app.schemas.user import UserInDB, UserRegister
-from app.models.user import Role
+from app.models.role import Role
 
 
 
@@ -57,7 +57,7 @@ def login(
         
         access_token_expires = timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
         access_token = security.create_access_token(
-            data={"sub": user.email, "role": user.role},
+            data={"sub": user.email, "role": user.role.name},
             expires_delta=access_token_expires
         )
         
