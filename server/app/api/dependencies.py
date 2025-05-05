@@ -55,8 +55,28 @@ def get_current_active_user(current_user: User = Depends(get_current_user)):
         raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
 
+# def get_current_active_admin(current_user: User = Depends(get_current_active_user)):
+#     if current_user.role != "admin":
+#         logger.warning(f"Unauthorized admin access attempt by: {current_user.email}")
+#         raise HTTPException(
+#             status_code=status.HTTP_403_FORBIDDEN,
+#             detail="The user doesn't have enough privileges"
+#         )
+#     logger.debug(f"Admin access granted to: {current_user.email}")
+#     return current_user
+
+# def get_current_active_manager(current_user: User = Depends(get_current_active_user)):
+#     if current_user.role not in ["admin", "manager"]:
+#         logger.warning(f"Unauthorized manager access attempt by: {current_user.email}")
+#         raise HTTPException(
+#             status_code=status.HTTP_403_FORBIDDEN,
+#             detail="The user doesn't have enough privileges"
+#         )
+#     logger.debug(f"Manager access granted to: {current_user.email}")
+#     return current_user
+
 def get_current_active_admin(current_user: User = Depends(get_current_active_user)):
-    if current_user.role != "admin":
+    if not hasattr(current_user, "role") or current_user.role.name.lower() != "admin":
         logger.warning(f"Unauthorized admin access attempt by: {current_user.email}")
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
@@ -65,8 +85,9 @@ def get_current_active_admin(current_user: User = Depends(get_current_active_use
     logger.debug(f"Admin access granted to: {current_user.email}")
     return current_user
 
+
 def get_current_active_manager(current_user: User = Depends(get_current_active_user)):
-    if current_user.role not in ["admin", "manager"]:
+    if not hasattr(current_user, "role") or current_user.role.name.lower() not in ["admin", "manager"]:
         logger.warning(f"Unauthorized manager access attempt by: {current_user.email}")
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,

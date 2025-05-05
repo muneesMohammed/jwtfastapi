@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from typing import Dict, Any
-from app.models.user import User, Role
+from app.models.user import User
+from app.models.role import Role
 from app.schemas.user import UserCreate, UserUpdate
 from app.core.security import get_password_hash
 from app.core.config import logger
@@ -14,16 +14,17 @@ def get_user_by_email(db: Session, email: str):
 def get_users(db: Session, skip: int = 0, limit: int = 100):
     return db.query(User).offset(skip).limit(limit).all()
 
-def create_user(db: Session, user_data: Dict[str, Any]):
+def create_user(db: Session, user_data: UserCreate):
     try:
-        hashed_password = get_password_hash(user_data["password"])
+        hashed_password = get_password_hash(user_data.password)
+
         db_user = User(
-            email=user_data["email"],
+            email=user_data.email,
             hashed_password=hashed_password,
-            full_name=user_data.get("full_name"),
-            is_active=user_data.get("is_active", True),
-            role=user_data.get("role", Role.USER),
-            is_verified=user_data.get("is_verified", False)
+            full_name=user_data.full_name,
+            is_active=user_data.is_active if user_data.is_active is not None else True,
+            role_id=user_data.role_id,
+            is_verified=user_data.is_verified if user_data.is_verified is not None else False
         )
         db.add(db_user)
         db.commit()
