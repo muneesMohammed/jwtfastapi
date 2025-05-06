@@ -37143,3 +37143,557 @@ WHERE roles.id = %(pk_1)s
 2025-05-06 01:52:57,220 - app.core.config - INFO - User logged in successfully: foreman@gmail.com
 2025-05-06 01:52:57,222 - sqlalchemy.engine.Engine - INFO - ROLLBACK
 2025-05-06 01:52:57,227 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/auth/login - Status 200
+2025-05-06 15:41:50,785 - app.core.config - DEBUG - Debug mode is enabled
+2025-05-06 15:41:51,136 - passlib.utils.compat - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-05-06 15:41:51,136 - passlib.utils.compat - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-05-06 15:41:51,136 - passlib.utils.compat - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-05-06 15:41:51,143 - passlib.registry - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-05-06 15:41:51,318 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2025-05-06 15:41:51,319 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,320 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2025-05-06 15:41:51,321 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,321 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2025-05-06 15:41:51,322 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,323 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 15:41:51,323 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-05-06 15:41:51,323 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,328 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`roles`
+2025-05-06 15:41:51,328 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,330 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-05-06 15:41:51,330 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,331 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-05-06 15:41:51,332 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,333 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-05-06 15:41:51,333 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,334 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-05-06 15:41:51,334 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,336 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-05-06 15:41:51,336 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,337 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-06 15:41:51,338 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 15:41:51,338 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-05-06 15:41:51,338 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,339 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`roles`
+2025-05-06 15:41:51,339 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,340 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-05-06 15:41:51,341 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,342 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-05-06 15:41:51,342 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,343 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-05-06 15:41:51,343 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,344 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-05-06 15:41:51,344 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,346 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-05-06 15:41:51,346 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,347 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-06 15:41:51,348 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 15:41:51,348 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`users`
+2025-05-06 15:41:51,348 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,350 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`roles`
+2025-05-06 15:41:51,350 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,351 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`projects`
+2025-05-06 15:41:51,351 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,352 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`daily_reports`
+2025-05-06 15:41:51,352 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,353 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`manpower_utilized`
+2025-05-06 15:41:51,353 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,354 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`machinery_utilized`
+2025-05-06 15:41:51,355 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,357 - sqlalchemy.engine.Engine - INFO - DESCRIBE `emts`.`activities_carried_out`
+2025-05-06 15:41:51,358 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+2025-05-06 15:41:51,359 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-05-06 15:41:51,383 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 15:41:51,385 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.name = %(name_1)s 
+ LIMIT %(param_1)s
+2025-05-06 15:41:51,386 - sqlalchemy.engine.Engine - INFO - [generated in 0.00037s] {'name_1': 'admin', 'param_1': 1}
+2025-05-06 15:41:51,387 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.name = %(name_1)s 
+ LIMIT %(param_1)s
+2025-05-06 15:41:51,388 - sqlalchemy.engine.Engine - INFO - [cached since 0.002364s ago] {'name_1': 'user', 'param_1': 1}
+2025-05-06 15:41:51,389 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.name = %(name_1)s 
+ LIMIT %(param_1)s
+2025-05-06 15:41:51,389 - sqlalchemy.engine.Engine - INFO - [cached since 0.00393s ago] {'name_1': 'foreman', 'param_1': 1}
+2025-05-06 15:41:51,391 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 15:41:51,391 - sqlalchemy.engine.Engine - INFO - [generated in 0.00036s] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 15:41:51,393 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 15:42:00,583 - app.core.config - INFO - Incoming request: GET http://localhost:8000/docs
+2025-05-06 15:42:00,584 - app.core.config - INFO - Completed: GET http://localhost:8000/docs - Status 200
+2025-05-06 15:42:00,654 - app.core.config - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-05-06 15:42:00,667 - app.core.config - INFO - Completed: GET http://localhost:8000/openapi.json - Status 200
+2025-05-06 15:44:45,923 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-05-06 15:44:45,924 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,925 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-05-06 15:44:45,925 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-05-06 15:44:45,925 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,925 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-05-06 15:44:45,926 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,927 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-05-06 15:44:45,928 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-05-06 15:44:45,928 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,928 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 15:44:45,928 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-05-06 15:44:45,928 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-05-06 15:44:45,929 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 15:44:45,929 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-06 15:44:45,931 - app.core.config - INFO - Login attempt for user: foreman@gmail.com
+2025-05-06 15:44:45,932 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 15:44:45,933 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 15:44:45,933 - sqlalchemy.engine.Engine - INFO - [cached since 174.5s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 15:44:45,935 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '4.0.1'
+2025-05-06 15:44:45,935 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2025-05-06 15:44:46,215 - app.core.config - DEBUG - Password verification succeeded
+2025-05-06 15:44:46,217 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 15:44:46,217 - sqlalchemy.engine.Engine - INFO - [generated in 0.00089s] {'pk_1': 3}
+2025-05-06 15:44:46,219 - app.core.config - DEBUG - Creating token with data: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': datetime.datetime(2025, 5, 6, 10, 29, 46, 219272)}
+2025-05-06 15:44:46,223 - app.core.config - INFO - Access token created successfully
+2025-05-06 15:44:46,224 - app.core.config - INFO - User logged in successfully: foreman@gmail.com
+2025-05-06 15:44:46,225 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 15:44:46,226 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/auth/login - Status 200
+2025-05-06 16:40:29,620 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles
+2025-05-06 16:40:29,622 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users
+2025-05-06 16:40:29,622 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles - Status 200
+2025-05-06 16:40:29,625 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users - Status 200
+2025-05-06 16:40:29,634 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles
+2025-05-06 16:40:29,637 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles - Status 200
+2025-05-06 16:40:29,647 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users
+2025-05-06 16:40:29,650 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:40:29,652 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users - Status 200
+2025-05-06 16:40:29,655 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:40:29,672 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:40:29,675 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:29,676 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:40:29,681 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles/ - Status 200
+2025-05-06 16:40:29,693 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:40:29,696 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:40:29,700 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:29,705 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:29,708 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer null', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:29,714 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:40:29,715 - app.core.config - DEBUG - Authenticating user with token: null...
+2025-05-06 16:40:29,716 - app.core.config - DEBUG - Attempting to decode token: null...
+2025-05-06 16:40:29,717 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,720 - app.core.config - ERROR - Token decoding failed: Not enough segments
+2025-05-06 16:40:29,722 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:40:29,722 - app.core.config - WARNING - Token decoding returned None
+2025-05-06 16:40:29,726 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users/ - Status 200
+2025-05-06 16:40:29,734 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 401
+2025-05-06 16:40:29,740 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,742 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users/ - Status 200
+2025-05-06 16:40:29,752 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:29,755 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:29,756 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer null', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:29,756 - app.core.config - DEBUG - Authenticating user with token: null...
+2025-05-06 16:40:29,757 - app.core.config - DEBUG - Attempting to decode token: null...
+2025-05-06 16:40:29,757 - app.core.config - ERROR - Token decoding failed: Not enough segments
+2025-05-06 16:40:29,759 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,759 - app.core.config - WARNING - Token decoding returned None
+2025-05-06 16:40:29,775 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 401
+2025-05-06 16:40:29,776 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,779 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer null', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:29,781 - app.core.config - DEBUG - Authenticating user with token: null...
+2025-05-06 16:40:29,781 - app.core.config - DEBUG - Attempting to decode token: null...
+2025-05-06 16:40:29,782 - app.core.config - ERROR - Token decoding failed: Not enough segments
+2025-05-06 16:40:29,782 - app.core.config - WARNING - Token decoding returned None
+2025-05-06 16:40:29,786 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 401
+2025-05-06 16:40:29,815 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,822 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:29,823 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer null', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:29,824 - app.core.config - DEBUG - Authenticating user with token: null...
+2025-05-06 16:40:29,824 - app.core.config - DEBUG - Attempting to decode token: null...
+2025-05-06 16:40:29,825 - app.core.config - ERROR - Token decoding failed: Not enough segments
+2025-05-06 16:40:29,826 - app.core.config - WARNING - Token decoding returned None
+2025-05-06 16:40:29,828 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 401
+2025-05-06 16:40:39,335 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-05-06 16:40:39,336 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,336 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-05-06 16:40:39,336 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-05-06 16:40:39,336 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,337 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,337 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-05-06 16:40:39,337 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-05-06 16:40:39,337 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,338 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,339 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:40:39,340 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-05-06 16:40:39,340 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-05-06 16:40:39,340 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:40:39,340 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-06 16:40:39,342 - app.core.config - INFO - Login attempt for user: foreman@gmail.com
+2025-05-06 16:40:39,343 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:40:39,343 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:40:39,344 - sqlalchemy.engine.Engine - INFO - [cached since 3528s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 16:40:39,652 - app.core.config - DEBUG - Password verification succeeded
+2025-05-06 16:40:39,653 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:40:39,654 - sqlalchemy.engine.Engine - INFO - [cached since 3353s ago] {'pk_1': 3}
+2025-05-06 16:40:39,655 - app.core.config - DEBUG - Creating token with data: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': datetime.datetime(2025, 5, 6, 11, 25, 39, 655745)}
+2025-05-06 16:40:39,656 - app.core.config - INFO - Access token created successfully
+2025-05-06 16:40:39,656 - app.core.config - INFO - User logged in successfully: foreman@gmail.com
+2025-05-06 16:40:39,657 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:40:39,659 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/auth/login - Status 200
+2025-05-06 16:40:52,798 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:40:52,800 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:40:52,821 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:40:52,822 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:40:52,855 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:40:52,858 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:40:52,879 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:40:52,881 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:40:52,888 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:52,890 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:52,891 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmb3JlbWFuQGdtYWlsLmNvbSIsInJvbGUiOiJmb3JlbWFuIiwiZXhwIjoxNzQ2NTMwNzM5fQ.xN7J78HsGPUXaGJh0H-ri35clv1rX9xwfZgj4xCcYj0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:52,891 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:40:52,892 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:40:52,896 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': 1746530739}
+2025-05-06 16:40:52,898 - app.core.config - DEBUG - Token data: sub='foreman@gmail.com' exp=1746530739 role='foreman'
+2025-05-06 16:40:52,900 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:40:52,902 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:40:52,903 - sqlalchemy.engine.Engine - INFO - [cached since 3542s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 16:40:52,906 - app.core.config - INFO - User authenticated: foreman@gmail.com
+2025-05-06 16:40:52,908 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:40:52,909 - sqlalchemy.engine.Engine - INFO - [cached since 3367s ago] {'pk_1': 3}
+2025-05-06 16:40:52,912 - app.core.config - WARNING - Unauthorized admin access attempt by: foreman@gmail.com
+2025-05-06 16:40:52,913 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:40:52,915 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 403
+2025-05-06 16:40:52,933 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:52,935 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:52,936 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmb3JlbWFuQGdtYWlsLmNvbSIsInJvbGUiOiJmb3JlbWFuIiwiZXhwIjoxNzQ2NTMwNzM5fQ.xN7J78HsGPUXaGJh0H-ri35clv1rX9xwfZgj4xCcYj0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:52,937 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:40:52,937 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:40:52,940 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': 1746530739}
+2025-05-06 16:40:52,941 - app.core.config - DEBUG - Token data: sub='foreman@gmail.com' exp=1746530739 role='foreman'
+2025-05-06 16:40:52,942 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:40:52,944 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:40:52,949 - sqlalchemy.engine.Engine - INFO - [cached since 3542s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 16:40:52,955 - app.core.config - INFO - User authenticated: foreman@gmail.com
+2025-05-06 16:40:52,958 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:40:52,960 - sqlalchemy.engine.Engine - INFO - [cached since 3367s ago] {'pk_1': 3}
+2025-05-06 16:40:52,962 - app.core.config - WARNING - Unauthorized admin access attempt by: foreman@gmail.com
+2025-05-06 16:40:52,963 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:40:52,965 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 403
+2025-05-06 16:40:52,983 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:52,988 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:40:52,990 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmb3JlbWFuQGdtYWlsLmNvbSIsInJvbGUiOiJmb3JlbWFuIiwiZXhwIjoxNzQ2NTMwNzM5fQ.xN7J78HsGPUXaGJh0H-ri35clv1rX9xwfZgj4xCcYj0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:52,991 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:40:52,992 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:40:52,992 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': 1746530739}
+2025-05-06 16:40:52,992 - app.core.config - DEBUG - Token data: sub='foreman@gmail.com' exp=1746530739 role='foreman'
+2025-05-06 16:40:52,995 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:40:52,996 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:40:52,997 - sqlalchemy.engine.Engine - INFO - [cached since 3542s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 16:40:52,999 - app.core.config - INFO - User authenticated: foreman@gmail.com
+2025-05-06 16:40:53,002 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:40:53,002 - sqlalchemy.engine.Engine - INFO - [cached since 3367s ago] {'pk_1': 3}
+2025-05-06 16:40:53,004 - app.core.config - WARNING - Unauthorized admin access attempt by: foreman@gmail.com
+2025-05-06 16:40:53,005 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:40:53,008 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 403
+2025-05-06 16:40:53,021 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:53,023 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:40:53,024 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmb3JlbWFuQGdtYWlsLmNvbSIsInJvbGUiOiJmb3JlbWFuIiwiZXhwIjoxNzQ2NTMwNzM5fQ.xN7J78HsGPUXaGJh0H-ri35clv1rX9xwfZgj4xCcYj0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:40:53,024 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:40:53,025 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:40:53,025 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'foreman@gmail.com', 'role': 'foreman', 'exp': 1746530739}
+2025-05-06 16:40:53,025 - app.core.config - DEBUG - Token data: sub='foreman@gmail.com' exp=1746530739 role='foreman'
+2025-05-06 16:40:53,026 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:40:53,030 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:40:53,031 - sqlalchemy.engine.Engine - INFO - [cached since 3542s ago] {'email_1': 'foreman@gmail.com', 'param_1': 1}
+2025-05-06 16:40:53,032 - app.core.config - INFO - User authenticated: foreman@gmail.com
+2025-05-06 16:40:53,035 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:40:53,035 - sqlalchemy.engine.Engine - INFO - [cached since 3367s ago] {'pk_1': 3}
+2025-05-06 16:40:53,038 - app.core.config - WARNING - Unauthorized admin access attempt by: foreman@gmail.com
+2025-05-06 16:40:53,039 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:40:53,042 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 403
+2025-05-06 16:42:30,325 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-05-06 16:42:30,326 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:42:30,327 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-05-06 16:42:30,327 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-05-06 16:42:30,327 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:42:30,327 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:42:30,328 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-05-06 16:42:30,328 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:48]
+2025-05-06 16:42:30,328 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:42:30,328 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:42:30,328 - python_multipart.multipart - DEBUG - Calling on_field_name with data[49:57]
+2025-05-06 16:42:30,329 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-05-06 16:42:30,329 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:42:30,329 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-06 16:42:30,330 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-05-06 16:42:30,331 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:42:30,332 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:42:30,332 - sqlalchemy.engine.Engine - INFO - [cached since 3639s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:42:30,621 - app.core.config - DEBUG - Password verification succeeded
+2025-05-06 16:42:30,621 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:42:30,622 - sqlalchemy.engine.Engine - INFO - [cached since 3464s ago] {'pk_1': 1}
+2025-05-06 16:42:30,623 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': 'admin', 'exp': datetime.datetime(2025, 5, 6, 11, 27, 30, 623674)}
+2025-05-06 16:42:30,624 - app.core.config - INFO - Access token created successfully
+2025-05-06 16:42:30,624 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-05-06 16:42:30,625 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:42:30,626 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/auth/login - Status 200
+2025-05-06 16:42:43,054 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:42:43,056 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:42:43,057 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NjUzMDg1MH0.zrjB2kcfk3QqrNr0HVGDdsGZWvXUXmd0wQlbZ0RleRg', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9', 'cookie': '__next_hmr_refresh_hash__=786; __next_hmr_refresh_hash__=310'}
+2025-05-06 16:42:43,057 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:42:43,058 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:42:43,058 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1746530850}
+2025-05-06 16:42:43,059 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1746530850 role='admin'
+2025-05-06 16:42:43,059 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:42:43,060 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:42:43,060 - sqlalchemy.engine.Engine - INFO - [cached since 3652s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:42:43,063 - app.core.config - INFO - User authenticated: admin@example.com
+2025-05-06 16:42:43,066 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:42:43,067 - sqlalchemy.engine.Engine - INFO - [cached since 3477s ago] {'pk_1': 1}
+2025-05-06 16:42:43,069 - app.core.config - DEBUG - Admin access granted to: admin@example.com
+2025-05-06 16:42:43,071 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles
+2025-05-06 16:42:43,071 - sqlalchemy.engine.Engine - INFO - [generated in 0.00062s] {}
+2025-05-06 16:42:43,074 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:42:43,075 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 200
+2025-05-06 16:51:50,595 - app.core.config - INFO - Incoming request: POST http://localhost:8000/api/v1/auth/login
+2025-05-06 16:51:50,597 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,597 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:8]
+2025-05-06 16:51:50,597 - python_multipart.multipart - DEBUG - Calling on_field_data with data[9:28]
+2025-05-06 16:51:50,598 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,598 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,598 - python_multipart.multipart - DEBUG - Calling on_field_name with data[29:37]
+2025-05-06 16:51:50,598 - python_multipart.multipart - DEBUG - Calling on_field_data with data[38:46]
+2025-05-06 16:51:50,598 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_name with data[47:57]
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_data with data[58:66]
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,599 - python_multipart.multipart - DEBUG - Calling on_field_name with data[67:72]
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_name with data[74:83]
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_data with data[84:90]
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-05-06 16:51:50,600 - python_multipart.multipart - DEBUG - Calling on_field_name with data[91:104]
+2025-05-06 16:51:50,601 - python_multipart.multipart - DEBUG - Calling on_field_data with data[105:111]
+2025-05-06 16:51:50,601 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-05-06 16:51:50,601 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-06 16:51:50,603 - app.core.config - INFO - Login attempt for user: admin@example.com
+2025-05-06 16:51:50,604 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:51:50,605 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:51:50,605 - sqlalchemy.engine.Engine - INFO - [cached since 4199s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:51:50,926 - app.core.config - DEBUG - Password verification succeeded
+2025-05-06 16:51:50,927 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:50,927 - sqlalchemy.engine.Engine - INFO - [cached since 4025s ago] {'pk_1': 1}
+2025-05-06 16:51:50,928 - app.core.config - DEBUG - Creating token with data: {'sub': 'admin@example.com', 'role': 'admin', 'exp': datetime.datetime(2025, 5, 6, 11, 36, 50, 928857)}
+2025-05-06 16:51:50,929 - app.core.config - INFO - Access token created successfully
+2025-05-06 16:51:50,929 - app.core.config - INFO - User logged in successfully: admin@example.com
+2025-05-06 16:51:50,930 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:51:50,932 - app.core.config - INFO - Completed: POST http://localhost:8000/api/v1/auth/login - Status 200
+2025-05-06 16:51:58,604 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles
+2025-05-06 16:51:58,606 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users
+2025-05-06 16:51:58,608 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles - Status 200
+2025-05-06 16:51:58,610 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users - Status 200
+2025-05-06 16:51:58,622 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles
+2025-05-06 16:51:58,624 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users
+2025-05-06 16:51:58,627 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:51:58,629 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles - Status 200
+2025-05-06 16:51:58,631 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:51:58,631 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users - Status 200
+2025-05-06 16:51:58,634 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:51:58,637 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:51:58,643 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users
+2025-05-06 16:51:58,645 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users - Status 307
+2025-05-06 16:51:58,657 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles
+2025-05-06 16:51:58,658 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles - Status 307
+2025-05-06 16:51:58,690 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/roles/
+2025-05-06 16:51:58,692 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,693 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/roles/ - Status 200
+2025-05-06 16:51:58,697 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users/ - Status 200
+2025-05-06 16:51:58,712 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:51:58,714 - app.core.config - INFO - Incoming request: OPTIONS http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,716 - app.core.config - INFO - Completed: OPTIONS http://localhost:8000/api/v1/users/ - Status 200
+2025-05-06 16:51:58,720 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,720 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:51:58,723 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NjUzMTQxMH0.vvkHiDxJsRnIZyhdeQxEacdaOdcICTqRhUZTpA9zZNw', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:51:58,725 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,726 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:51:58,729 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NjUzMTQxMH0.vvkHiDxJsRnIZyhdeQxEacdaOdcICTqRhUZTpA9zZNw', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:51:58,729 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:51:58,731 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:51:58,731 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1746531410}
+2025-05-06 16:51:58,732 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:51:58,733 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1746531410 role='admin'
+2025-05-06 16:51:58,735 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1746531410}
+2025-05-06 16:51:58,738 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:51:58,740 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1746531410 role='admin'
+2025-05-06 16:51:58,744 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:51:58,756 - sqlalchemy.engine.Engine - INFO - [cached since 4207s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:51:58,759 - app.core.config - INFO - User authenticated: admin@example.com
+2025-05-06 16:51:58,761 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,762 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 1}
+2025-05-06 16:51:58,772 - app.core.config - DEBUG - Admin access granted to: admin@example.com
+2025-05-06 16:51:58,774 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles
+2025-05-06 16:51:58,777 - sqlalchemy.engine.Engine - INFO - [cached since 555.7s ago] {}
+2025-05-06 16:51:58,789 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:51:58,792 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 200
+2025-05-06 16:51:58,799 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:51:58,801 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:51:58,802 - sqlalchemy.engine.Engine - INFO - [cached since 4207s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:51:58,805 - app.core.config - INFO - User authenticated: admin@example.com
+2025-05-06 16:51:58,806 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:51:58,809 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/roles/
+2025-05-06 16:51:58,809 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,810 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NjUzMTQxMH0.vvkHiDxJsRnIZyhdeQxEacdaOdcICTqRhUZTpA9zZNw', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:51:58,810 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 1}
+2025-05-06 16:51:58,810 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:51:58,812 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:51:58,813 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1746531410}
+2025-05-06 16:51:58,814 - app.core.config - DEBUG - Admin access granted to: admin@example.com
+2025-05-06 16:51:58,814 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1746531410 role='admin'
+2025-05-06 16:51:58,816 - app.core.config - INFO - User list requested by admin@example.com
+2025-05-06 16:51:58,817 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:51:58,823 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+ LIMIT %(param_1)s, %(param_2)s
+2025-05-06 16:51:58,826 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:51:58,827 - sqlalchemy.engine.Engine - INFO - [generated in 0.00426s] {'param_1': 0, 'param_2': 100}
+2025-05-06 16:51:58,831 - sqlalchemy.engine.Engine - INFO - [cached since 4207s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:51:58,835 - app.core.config - INFO - User authenticated: admin@example.com
+2025-05-06 16:51:58,836 - app.core.config - DEBUG - Returning 4 users
+2025-05-06 16:51:58,869 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,870 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 2}
+2025-05-06 16:51:58,874 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,877 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 3}
+2025-05-06 16:51:58,881 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:51:58,886 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 200
+2025-05-06 16:51:58,884 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,890 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 1}
+2025-05-06 16:51:58,893 - app.core.config - DEBUG - Admin access granted to: admin@example.com
+2025-05-06 16:51:58,894 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles
+2025-05-06 16:51:58,895 - sqlalchemy.engine.Engine - INFO - [cached since 555.8s ago] {}
+2025-05-06 16:51:58,898 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:51:58,901 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/roles/ - Status 200
+2025-05-06 16:51:58,904 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,908 - app.core.config - INFO - Incoming request: GET http://localhost:8000/api/v1/users/
+2025-05-06 16:51:58,908 - app.core.config - DEBUG - Headers: {'host': 'localhost:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTc0NjUzMTQxMH0.vvkHiDxJsRnIZyhdeQxEacdaOdcICTqRhUZTpA9zZNw', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0', 'accept': 'application/json, text/plain, */*', 'sec-ch-ua': '"Chromium";v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"', 'sec-ch-ua-mobile': '?0', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'}
+2025-05-06 16:51:58,908 - app.core.config - DEBUG - Authenticating user with token: eyJhbGciOi...
+2025-05-06 16:51:58,909 - app.core.config - DEBUG - Attempting to decode token: eyJhbGciOi...
+2025-05-06 16:51:58,909 - app.core.config - DEBUG - Token decoded successfully: {'sub': 'admin@example.com', 'role': 'admin', 'exp': 1746531410}
+2025-05-06 16:51:58,910 - app.core.config - DEBUG - Token data: sub='admin@example.com' exp=1746531410 role='admin'
+2025-05-06 16:51:58,910 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-05-06 16:51:58,911 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s
+2025-05-06 16:51:58,912 - sqlalchemy.engine.Engine - INFO - [cached since 4208s ago] {'email_1': 'admin@example.com', 'param_1': 1}
+2025-05-06 16:51:58,914 - app.core.config - INFO - User authenticated: admin@example.com
+2025-05-06 16:51:58,917 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,920 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 1}
+2025-05-06 16:51:58,922 - app.core.config - DEBUG - Admin access granted to: admin@example.com
+2025-05-06 16:51:58,924 - app.core.config - INFO - User list requested by admin@example.com
+2025-05-06 16:51:58,927 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.hashed_password AS users_hashed_password, users.is_active AS users_is_active, users.is_verified AS users_is_verified, users.role_id AS users_role_id 
+FROM users 
+ LIMIT %(param_1)s, %(param_2)s
+2025-05-06 16:51:58,927 - sqlalchemy.engine.Engine - INFO - [cached since 0.1043s ago] {'param_1': 0, 'param_2': 100}
+2025-05-06 16:51:58,930 - app.core.config - DEBUG - Returning 4 users
+2025-05-06 16:51:58,932 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,933 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 2}
+2025-05-06 16:51:58,939 - sqlalchemy.engine.Engine - INFO - SELECT roles.id AS roles_id, roles.name AS roles_name, roles.permissions AS roles_permissions 
+FROM roles 
+WHERE roles.id = %(pk_1)s
+2025-05-06 16:51:58,939 - sqlalchemy.engine.Engine - INFO - [cached since 4033s ago] {'pk_1': 3}
+2025-05-06 16:51:58,942 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-05-06 16:51:58,944 - app.core.config - INFO - Completed: GET http://localhost:8000/api/v1/users/ - Status 200
