@@ -2,10 +2,7 @@
 
 import * as React from "react"
 import {
-  AudioWaveform,
-  Blocks,
   Calendar,
-  Command,
   Home,
   Flag,
   Inbox,
@@ -13,278 +10,131 @@ import {
   Search,
   Settings2,
   Sparkles,
-  // Trash2,
   ClipboardPlus,
   UserRoundPlus,
-  FileClock
+  FileClock,
+  Users
 } from "lucide-react"
 
 import { NavFavorites } from "@/components/nav-favorites"
 import { NavMain } from "@/components/nav-main"
 import { NavSecondary } from "@/components/nav-secondary"
-// import { NavWorkspaces } from "@/components/nav-workspaces"
 import { TeamSwitcher } from "@/components/team-switcher"
+import { NavUser } from "@/components/nav-user"
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar"
-// import { Plus } from "lucide-react"
-
-// This is sample data.
-const data = {
-  teams: [
-    {
-      name: "Acme Inc",
-      logo: Command,
-      plan: "Enterprise",
-    },
-    {
-      name: "Acme Corp.",
-      logo: AudioWaveform,
-      plan: "Startup",
-    },
-    {
-      name: "Evil Corp.",
-      logo: Command,
-      plan: "Free",
-    },
-  ],
-  navMain: [
-    {
-      title: "Search",
-      url: "#",
-      icon: Search,
-    },
-    {
-      title: "Ask AI",
-      url: "#",
-      icon: Sparkles,
-    },
-    {
-      title: "Home",
-      url: "/foreman/dashboard",
-      icon: Home,
-      isActive: true,
-    },
-    {
-      title: "ProjectCreate",
-      url: "/foreman/tasks/create",
-      icon:  ClipboardPlus,
-      isActive: true,
-    },
-    {
-      title: "Daily Report",
-      url: "/foreman/daily-report",
-      icon: Flag,
-      isActive: true,
-    },
-    {
-       title: "Reports",
-       url:"/foreman/daily-report-list",
-       icon: FileClock, 
-       isActive: true, 
-      },
-    { 
-      title: "Workers",
-       url: "/foreman/workers",
-        icon: Home, 
-        isActive: true, },
-    {
-      title: "Add User",
-      url: "/admin/users",
-      icon:  UserRoundPlus, 
-      isActive: true,
-    },
-    {
-      title: "Inbox",
-      url: "#",
-      icon: Inbox,
-      badge: "10",
-  },
-  ],
-  navSecondary: [
-    {
-      title: "Calendar",
-      url: "#",
-      icon: Calendar,
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-    },
-    {
-      title: "Templates",
-      url: "#",
-      icon: Blocks,
-    },
-    // {
-    //   title: "Trash",
-    //   url: "#",
-    //   icon: Trash2,
-    // },
-    {
-      title: "Help",
-      url: "#",
-      icon: MessageCircleQuestion,
-    },
-  ],
-  favorites: [
-    {
-      name: "Masaar",
-      url: "#",
-      emoji: "📊",
-    },
-    
-    {
-      name: "Agri Hub by URB",
-      url: "#",
-      emoji: "🌱",
-    },
-    
-    {
-      name: "One Za'abeel",
-      url: "#",
-      emoji: "🏠",
-    },
-    
-  ],
-  // workspaces: [
-  //   {
-  //     name: "Personal Life Management",
-  //     emoji: "🏠",
-  //     pages: [
-  //       {
-  //         name: "Daily Journal & Reflection",
-  //         url: "#",
-  //         emoji: "📔",
-  //       },
-  //       {
-  //         name: "Health & Wellness Tracker",
-  //         url: "#",
-  //         emoji: "🍏",
-  //       },
-  //       {
-  //         name: "Personal Growth & Learning Goals",
-  //         url: "#",
-  //         emoji: "🌟",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Professional Development",
-  //     emoji: "💼",
-  //     pages: [
-  //       {
-  //         name: "Career Objectives & Milestones",
-  //         url: "#",
-  //         emoji: "🎯",
-  //       },
-  //       {
-  //         name: "Skill Acquisition & Training Log",
-  //         url: "#",
-  //         emoji: "🧠",
-  //       },
-  //       {
-  //         name: "Networking Contacts & Events",
-  //         url: "#",
-  //         emoji: "🤝",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Creative Projects",
-  //     emoji: "🎨",
-  //     pages: [
-  //       {
-  //         name: "Writing Ideas & Story Outlines",
-  //         url: "#",
-  //         emoji: "✍️",
-  //       },
-  //       {
-  //         name: "Art & Design Portfolio",
-  //         url: "#",
-  //         emoji: "🖼️",
-  //       },
-  //       {
-  //         name: "Music Composition & Practice Log",
-  //         url: "#",
-  //         emoji: "🎵",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Home Management",
-  //     emoji: "🏡",
-  //     pages: [
-  //       {
-  //         name: "Household Budget & Expense Tracking",
-  //         url: "#",
-  //         emoji: "💰",
-  //       },
-  //       {
-  //         name: "Home Maintenance Schedule & Tasks",
-  //         url: "#",
-  //         emoji: "🔧",
-  //       },
-  //       {
-  //         name: "Family Calendar & Event Planning",
-  //         url: "#",
-  //         emoji: "📅",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Travel & Adventure",
-  //     emoji: "🧳",
-  //     pages: [
-  //       {
-  //         name: "Trip Planning & Itineraries",
-  //         url: "#",
-  //         emoji: "🗺️",
-  //       },
-  //       {
-  //         name: "Travel Bucket List & Inspiration",
-  //         url: "#",
-  //         emoji: "🌎",
-  //       },
-  //       {
-  //         name: "Travel Journal & Photo Gallery",
-  //         url: "#",
-  //         emoji: "📸",
-  //       },
-  //     ],
-  //   },
-  // ],
-}
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  interface User {
+    full_name: string;
+    email: string;
+    role?: {
+      name: string;
+    };
+  }
+
+  const [user, setUser] = React.useState<User | null>(null)
+  const token = localStorage.getItem('token');
+
+  React.useEffect(() => {
+    const fetchUser = async () => {
+
+      try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/me`, {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          credentials: "include",
+        })
+        const data = await res.json()
+        setUser(data)
+      } catch (error) {
+        console.error("Error fetching user:", error)
+      }
+    }
+
+    fetchUser()
+  }, [])
+
+  if (!user) {
+    return null // or a loader
+  }
+
+  const role = user?.role?.name
+
+  const navMain = [
+    { title: "Search", url: "#", icon: Search , isActive: true},
+    { title: "Ask AI", url: "#", icon: Sparkles },
+    { title: "Home", url: "/foreman/dashboard", icon: Home },
+    { title: "Daily Report", url: "/foreman/daily-report", icon: Flag },
+    { title: "Reports", url: "/foreman/daily-report-list", icon: FileClock },
+  ]
+
+  if (role === "admin" || role === "manager") {
+    navMain.push({
+      title: "ProjectCreate",
+      url: "/foreman/tasks/create",
+      icon: ClipboardPlus,
+    })
+  }
+
+  if (role === "admin") {
+    navMain.push(
+      {
+        title: "Workers",
+        url: "/foreman/workers",
+        icon: Users,
+      },
+      {
+        title: "Add User",
+        url: "/admin/users",
+        icon: UserRoundPlus,
+      }
+    )
+  }
+
+  navMain.push({
+    title: "Inbox",
+    url: "#",
+    icon: Inbox,
+
+  })
+
+  const navSecondary = [
+    { title: "Calendar", url: "#", icon: Calendar },
+    { title: "Settings", url: "#", icon: Settings2 },
+    { title: "Help", url: "#", icon: MessageCircleQuestion },
+  ]
+
+  const favorites = [
+    { name: "Masaar", url: "#", emoji: "📊" },
+    { name: "Agri Hub by URB", url: "#", emoji: "🌱" },
+    { name: "One Za'abeel", url: "#", emoji: "🏠" },
+  ]
+
   return (
     <Sidebar className="border-r-0" {...props}>
       <SidebarHeader>
-        <TeamSwitcher teams={data.teams} />
-        <NavMain items={data.navMain} />
+        <TeamSwitcher teams={[]} />
+        <NavMain items={navMain} />
       </SidebarHeader>
       <SidebarContent>
-        <NavFavorites favorites={data.favorites} />
-        {/* <NavWorkspaces workspaces={data.workspaces} /> */}
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
+        <NavFavorites favorites={favorites} />
+        <NavSecondary items={navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarRail />
+      <NavUser
+        user={{
+          name: user.full_name,
+          email: user.email,
+          avatar: `/avatars/${user.full_name?.toLowerCase().replace(" ", "_")}.jpg`, // Optional: use default or actual
+        }}
+      />
     </Sidebar>
   )
 }
-
-
-
-
-
-
-// const navItems = [
-//   { name: "Dashboard", href: "/foreman/dashboard" },
-//   { name: "Reports", href: "/foreman/reports" },
-//   { name: "TasksCreate", href: "/foreman/tasks/create" },
-
-// ];

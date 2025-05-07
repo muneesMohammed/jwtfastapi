@@ -4,14 +4,17 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
 import { PlusCircle, Trash2 } from 'lucide-react';
 import CreateUserDialog from '@/components/CreateUserDialog';
 
-// interface Role {
-//   id: number;
-//   name: string;
-// }
 interface User {
   id: number;
   email: string;
@@ -23,27 +26,40 @@ interface User {
   };
 }
 
-
-
 export default function UsersPage() {
   const [users, setUsers] = useState<User[]>([]);
   const [open, setOpen] = useState(false);
+
   const fetchUsers = async () => {
-    const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users`,{
-      headers: {
-        Authorization: `Bearer ${localStorage.getItem('token')}`, // accessToken must be valid
-      },
-    }); // your backend endpoint
-    setUsers(res.data);
+    try {
+      const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+      if (!token) return;
+
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+      setUsers(res.data);
+    } catch (error) {
+      console.error('Failed to fetch users:', error);
+    }
   };
- 
+
   const deleteUser = async (id: number) => {
-    await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/${id}`,{
-      headers: {
-        Authorization: `Bearer ${localStorage.getItem('token')}`, // accessToken must be valid
-      },
-    });
-    fetchUsers();
+    try {
+      const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+      if (!token) return;
+
+      await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/${id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+      fetchUsers(); // Refresh list
+    } catch (error) {
+      console.error(`Failed to delete user with id ${id}:`, error);
+    }
   };
 
   useEffect(() => {
@@ -75,7 +91,11 @@ export default function UsersPage() {
                 <TableCell>{user.full_name}</TableCell>
                 <TableCell>{user.role?.name}</TableCell>
                 <TableCell className="text-right">
-                  <Button variant="destructive" size="sm" onClick={() => deleteUser(user.id)}>
+                  <Button
+                    variant="destructive"
+                    size="sm"
+                    onClick={() => deleteUser(user.id)}
+                  >
                     <Trash2 size={16} />
                   </Button>
                 </TableCell>
