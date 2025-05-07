@@ -29,15 +29,27 @@ interface User {
 export default function UsersPage() {
   const [users, setUsers] = useState<User[]>([]);
   const [open, setOpen] = useState(false);
+  const [token, setToken] = useState<string | null>(null);
 
-  const fetchUsers = async () => {
+  useEffect(() => {
+    // This will only run on the client side
+    const storedToken = localStorage.getItem('token');
+    if (storedToken) {
+      setToken(storedToken);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (token) {
+      fetchUsers(token);
+    }
+  }, [token]);
+
+  const fetchUsers = async (authToken: string) => {
     try {
-      const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
-      if (!token) return;
-
       const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users`, {
         headers: {
-          Authorization: `Bearer ${token}`,
+          Authorization: `Bearer ${authToken}`,
         },
       });
       setUsers(res.data);
@@ -48,23 +60,17 @@ export default function UsersPage() {
 
   const deleteUser = async (id: number) => {
     try {
-      const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
       if (!token) return;
-
       await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
       });
-      fetchUsers(); // Refresh list
+      fetchUsers(token); // Refresh list
     } catch (error) {
       console.error(`Failed to delete user with id ${id}:`, error);
     }
   };
-
-  useEffect(() => {
-    fetchUsers();
-  }, []);
 
   return (
     <Card className="p-4 shadow-lg">
@@ -104,7 +110,7 @@ export default function UsersPage() {
           </TableBody>
         </Table>
       </CardContent>
-      <CreateUserDialog open={open} onOpenChange={setOpen} onUserAdded={fetchUsers} />
+      <CreateUserDialog open={open} onOpenChange={setOpen} onUserAdded={() => token && fetchUsers(token)} />
     </Card>
   );
 }
