@@ -38,37 +38,40 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   }
 
   const [user, setUser] = React.useState<User | null>(null)
-  const token = localStorage.getItem('token');
+
 
   React.useEffect(() => {
-    const fetchUser = async () => {
-
-      try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/me`, {
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${token}`,
-          },
-          credentials: "include",
-        })
-        const data = await res.json()
-        setUser(data)
-      } catch (error) {
-        console.error("Error fetching user:", error)
-      }
+    if (typeof window !== 'undefined') {
+      const storedToken = localStorage.getItem('token');
+  
+      const fetchUser = async () => {
+        try {
+          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/me`, {
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${storedToken}`,
+            },
+            credentials: "include",
+          });
+          const data = await res.json();
+          setUser(data);
+        } catch (error) {
+          console.error("Error fetching user:", error);
+        }
+      };
+  
+      fetchUser();
     }
-
-    fetchUser()
-  }, [])
+  }, []);
 
   if (!user) {
-    return null // or a loader
+    return null // or render a loading spinner
   }
 
   const role = user?.role?.name
 
   const navMain = [
-    { title: "Search", url: "#", icon: Search , isActive: true},
+    { title: "Search", url: "#", icon: Search, isActive: true },
     { title: "Ask AI", url: "#", icon: Sparkles },
     { title: "Home", url: "/foreman/dashboard", icon: Home },
     { title: "Daily Report", url: "/foreman/daily-report", icon: Flag },
@@ -102,7 +105,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     title: "Inbox",
     url: "#",
     icon: Inbox,
-
   })
 
   const navSecondary = [
@@ -132,7 +134,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         user={{
           name: user.full_name,
           email: user.email,
-          avatar: `/avatars/${user.full_name?.toLowerCase().replace(" ", "_")}.jpg`, // Optional: use default or actual
+          avatar: `/avatars/${user.full_name?.toLowerCase().replace(" ", "_")}.jpg`,
         }}
       />
     </Sidebar>
