@@ -13,6 +13,18 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
+import { Project } from '@/types/project';
+
+// // Define the Project type if not imported from elsewhere
+// type Project = {
+//   id: number;
+//   name: string;
+//   description: string;
+//   start_date: string;
+//   end_date: string;
+//   location: string;
+//   status: string;
+// };
 
 export default function EditProjectDialog({
   open,
@@ -22,18 +34,20 @@ export default function EditProjectDialog({
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  project: any;
+  project: Project;
   onProjectUpdated: () => void;
 }) {
-  const [formData, setFormData] = useState({ ...project });
+  const [formData, setFormData] = useState<typeof project>({ ...project });
 
   useEffect(() => {
     setFormData({ ...project });
   }, [project]);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev: typeof project) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async () => {
@@ -51,7 +65,7 @@ export default function EditProjectDialog({
       toast.success('✅ Project updated');
       onProjectUpdated();
       onOpenChange(false);
-    } catch (err) {
+    } catch {
       toast.error('❌ Failed to update project');
     }
   };

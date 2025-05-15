@@ -44,7 +44,7 @@ export default function CreateProjectDialog({
   });
 
   const [employees, setEmployees] = useState<Employee[]>([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   // Load employees
   useEffect(() => {
@@ -58,10 +58,8 @@ export default function CreateProjectDialog({
         });
         const data = await res.json();
         setEmployees(data);
-      } catch (err) {
+      } catch {
         toast.error('Failed to load employees');
-      } finally {
-        setLoading(false);
       }
     };
 
@@ -114,7 +112,7 @@ export default function CreateProjectDialog({
         engineer_id: null,
         project_manager_id: null,
       });
-    } catch (err) {
+    } catch {
       toast.error('❌ Failed to create project');
     }
   };

@@ -19,13 +19,16 @@ import { Trash2, PlusCircle, Pencil } from 'lucide-react';
 import { toast } from 'sonner';
 import CreateProjectDialog from './CreateProjectDialog';
 import EditProjectDialog from './EditProjectDialog';
+import { Project } from '@/types/project';
+
+
 
 export default function ProjectsPage() {
-  const [projects, setProjects] = useState<any[]>([]);
+  const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [openCreateDialog, setOpenCreateDialog] = useState(false);
   const [openEditDialog, setOpenEditDialog] = useState(false);
-  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterByStatus, setFilterByStatus] = useState('');
 
@@ -59,13 +62,16 @@ export default function ProjectsPage() {
 
       toast.success('✅ Project deleted successfully');
       fetchProjects();
-    } catch (error: any) {
-      const message = error.response?.data?.detail || 'Failed to delete project';
+    } catch (error: unknown) {
+      let message = 'Failed to delete project';
+      if (axios.isAxiosError(error)) {
+        message = error.response?.data?.detail || message;
+      }
       toast.error(`❌ ${message}`);
     }
   };
 
-  const openEditDialogFor = (project: any) => {
+  const openEditDialogFor = (project: Project) => {
     setSelectedProject(project);
     setOpenEditDialog(true);
   };

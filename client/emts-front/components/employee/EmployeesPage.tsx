@@ -28,11 +28,11 @@ interface Employee {
   id: number;
   first_name: string;
   last_name: string;
-  email: string | null;
-  phone: string | null;
-  hire_date: string | null;
-  salary: number | null;
-  role: Role;
+  email?: string;
+  phone?: string;
+  hire_date?: string;
+  salary?: number;
+  role?: Role;
 }
 
 export default function EmployeesPage() {
@@ -74,10 +74,16 @@ export default function EmployeesPage() {
 
       toast.success("✅ Employee deleted successfully");
       fetchEmployees();
-    } catch (error: any) {
-      const message = error.response?.data?.detail || "Failed to delete employee";
-      toast.error(`❌ ${message}`);
-    }
+    } catch (error: unknown) {
+  let message = "Failed to create employee.";
+
+  if (typeof error === 'object' && error !== null && 'response' in error) {
+    const axiosError = error as { response?: { data?: { detail?: string } } };
+    message = axiosError.response?.data?.detail || message;
+  }
+
+  toast.error(`❌ ${message}`);
+}
   };
 
   const openEditDialogFor = (employee: Employee) => {
@@ -100,7 +106,7 @@ export default function EmployeesPage() {
       emp.last_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       emp.email?.toLowerCase().includes(searchTerm.toLowerCase());
 
-    const matchesRole = filterByRole ? emp.role.name === filterByRole : true;
+    const matchesRole = filterByRole ? emp.role && emp.role.name === filterByRole : true;
 
     return matchesSearch && matchesRole;
   });

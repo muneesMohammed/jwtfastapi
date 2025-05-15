@@ -101,11 +101,17 @@ export default function CreateEmployeeDialog({
       onOpenChange(false);
       form.reset();
       onEmployeeAdded();
-    } catch (error: any) {
-      const message =
-        error?.response?.data?.detail || "Failed to create employee.";
-      toast.error(`❌ ${message}`);
-    } finally {
+    } catch (error: unknown) {
+  let message = "Failed to create employee.";
+
+  if (typeof error === 'object' && error !== null && 'response' in error) {
+    const axiosError = error as { response?: { data?: { detail?: string } } };
+    message = axiosError.response?.data?.detail || message;
+  }
+
+  toast.error(`❌ ${message}`);
+}
+     finally {
       setLoading(false);
     }
   };

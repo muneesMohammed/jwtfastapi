@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";  // ✅ Added useState
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -42,7 +42,19 @@ export default function EditEmployeeDialog({
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  employee: any;
+  employee: {
+    id: number;
+    first_name: string;
+    last_name: string;
+    email?: string;
+    phone?: string;
+    hire_date?: string;
+    salary?: number;
+    role?: {
+      id: number;
+      name: string;
+    };
+  };
   onEmployeeUpdated: () => void;
 }) {
   const [roles, setRoles] = useState<RoleOption[]>([]);  // ✅ Now works
@@ -73,7 +85,7 @@ export default function EditEmployeeDialog({
       });
       fetchRoles();
     }
-  }, [open, employee]);
+  }, [open, employee, form]);
 
   const fetchRoles = async () => {
     try {
@@ -82,7 +94,7 @@ export default function EditEmployeeDialog({
         headers: { Authorization: `Bearer ${token}` },
       });
       setRoles(res.data);
-    } catch (err) {
+    } catch {
       toast.error("🚨 Failed to load roles.");
     }
   };
@@ -98,9 +110,17 @@ export default function EditEmployeeDialog({
       toast.success("✅ Employee updated successfully!");
       onEmployeeUpdated();
       onOpenChange(false);
-    } catch (error: any) {
-      toast.error(`❌ ${error.response?.data?.detail || "Failed to update employee"}`);
-    } finally {
+    } catch (error: unknown) {
+  let message = "Failed to create employee.";
+
+  if (typeof error === 'object' && error !== null && 'response' in error) {
+    const axiosError = error as { response?: { data?: { detail?: string } } };
+    message = axiosError.response?.data?.detail || message;
+  }
+
+  toast.error(`❌ ${message}`);
+}
+     finally {
       setLoading(false);
     }
   };
