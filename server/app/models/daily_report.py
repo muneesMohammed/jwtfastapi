@@ -23,6 +23,12 @@ class DailyReport(Base):
     user = relationship("User", back_populates="daily_reports")
     project = relationship("Project", back_populates="reports")
 
+        # Foreign key to Employee
+    employee_id = Column(Integer, ForeignKey("employees.id"))
+
+    # Relationship back to Employee
+    employee = relationship("Employee", back_populates="daily_reports")
+
     manpower = relationship("ManpowerUtilized", back_populates="report", cascade="all, delete-orphan")
     machinery = relationship("MachineryUtilized", back_populates="report", cascade="all, delete-orphan")
     activities = relationship("ActivitiesCarriedOut", back_populates="report", cascade="all, delete-orphan")

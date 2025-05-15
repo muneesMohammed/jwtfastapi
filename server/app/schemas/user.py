@@ -1,16 +1,22 @@
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional, Union
-from .role import RoleInDB  # assuming role_schema.py contains the Role models
+
+
+# String ref to Role models
+RoleInDB = "app.schemas.role.RoleShort"
 
 
 class UserBase(BaseModel):
     email: EmailStr
     full_name: Optional[str] = Field(None, min_length=2, max_length=50)
 
+    class Config:
+        from_attributes = True
+
 
 class UserCreate(UserBase):
     password: str = Field(..., min_length=8, max_length=50)
-    role_id: int  # References the Role table
+    role_id: int
     is_active: bool = True
     is_verified: bool = True
 
@@ -31,11 +37,23 @@ class UserUpdate(BaseModel):
         from_attributes = True
 
 
+class RoleShort(BaseModel):
+    id: int
+    name: str
+
+    class Config:
+        from_attributes = True
+
+
 class UserInDB(UserBase):
     id: int
     is_active: bool
     is_verified: bool
-    role: Union[str, RoleInDB]  # Can return just role name or full Role object
+    role: Union[str, 'RoleShort']  # Can be just name or object
 
     class Config:
         from_attributes = True
+
+
+# Resolve forward refs
+UserInDB.model_rebuild()

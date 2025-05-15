@@ -73,15 +73,20 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const navMain = [
     { title: "Search", url: "#", icon: Search, isActive: true },
     { title: "Ask AI", url: "#", icon: Sparkles },
-    { title: "Home", url: "/foreman/dashboard", icon: Home },
-    { title: "Daily Report", url: "/foreman/daily-report", icon: Flag },
-    { title: "Reports", url: "/foreman/daily-report-list", icon: FileClock },
+    { title: "Home", url: "/v1/foreman/dashboard", icon: Home },
+
   ]
 
+  if (role === "foreman") {
+    navMain.push(
+      { title: "Daily Report", url: "/v1/foreman/daily-report", icon: Flag },
+      { title: "Reports", url: "/v1/foreman/daily-report-list", icon: FileClock }
+    )
+  }
   if (role === "admin" || role === "manager") {
     navMain.push({
       title: "ProjectCreate",
-      url: "/foreman/tasks/create",
+      url: "/v1/projects",
       icon: ClipboardPlus,
     })
   }
@@ -89,13 +94,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   if (role === "admin") {
     navMain.push(
       {
-        title: "Workers",
-        url: "/foreman/workers",
+        title: "Add Employee",
+        url: "/v1/employees",
         icon: Users,
       },
       {
         title: "Add User",
-        url: "/admin/users",
+        url: "/v1/admin/users",
         icon: UserRoundPlus,
       }
     )
@@ -126,7 +131,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavMain items={navMain} />
       </SidebarHeader>
       <SidebarContent>
-        <NavFavorites favorites={favorites} />
+      {(role === "foreman") && <NavFavorites favorites={favorites} />}
+        {/* <NavFavorites favorites={favorites} /> */}
         <NavSecondary items={navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarRail />

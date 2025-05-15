@@ -57,7 +57,7 @@ export function LoginForm({ className, ...props }: React.HTMLAttributes<HTMLDivE
       const result = await response.json();
       toast.success("Login successful");
       localStorage.setItem("token", result.access_token);
-      router.push("/foreman/daily-report");
+      router.push("/v1/foreman/daily-report");
     } catch {
       toast.error("Login failed. Please check your credentials.");
     } finally {

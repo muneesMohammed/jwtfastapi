@@ -10,4 +10,6 @@ class Role(Base):
     name = Column(String(100), nullable=False)
     permissions = Column(String(100), nullable=True)
 
+    # Relationships
     users = relationship("User", back_populates="role")
+    employees = relationship("Employee", back_populates="role")
